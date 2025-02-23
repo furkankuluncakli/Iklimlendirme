@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Start */
+header {
+  background-color: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 150px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: 0.3s;
+  border-radius: 6px;
+}
+
+.nav-menu .active {
+  background-color: #4ca7e8;
+  color: white;
+  border-radius: 6px;
+}
+
+.nav-menu a:hover {
+  background-color: #4ca7e8;
+
+  color: #fff;
+}
+
+/* Navbar End */
+
+/* Container Start */
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 10px;
+    min-height: 100vh;
+}
+
+.box {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.box img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.left {
+    grid-column: span 6; 
+}
+
+.right {
+    grid-column: span 6; 
+}
+
+/* Text Start */
+.text{
+    grid-column: 1/-1;
+}
+
+/* Text Bölüm Başlıkları ve İçerik Stil Düzenlemeleri */
+
+/* Genel Yazı Tipi ve Stil */
+.mission, .vision, .principles {
+    font-family: 'Montserrat', sans-serif; /* Yazı tipi */
+    line-height: 1.6;
+    margin-bottom: 30px; /* Her bir bölümün altına boşluk ekler */
+}
+
+/* Mission (Misyon) Bölümü */
+.mission h2 {
+    font-size: 22px; /* Başlık boyutu */
+    color: #4ca7e8; /* Başlık rengi */
+    margin-bottom: 10px;
+}
+
+.mission p {
+    font-size: 16px; /* Paragraf yazı boyutu */
+    color: #333; /* Paragraf rengi */
+}
+
+/* Vision (Vizyon) Bölümü */
+.vision h2 {
+    font-size: 22px;
+    color: #4ca7e8;
+    margin-bottom: 10px;
+}
+
+.vision p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Principles (İlkeler) Bölümü */
+.principles h1 {
+    font-size: 26px;
+    color: #4ca7e8;
+    margin-bottom: 20px;
+    text-align: left; /* Başlık ortalanır */
+    font-weight: bold;
+}
+
+.principles h2 {
+    font-size: 20px;
+    color: #4ca7e8;
+    margin-bottom: 8px;
+}
+
+.principles p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Genel Alan Düzenlemeleri */
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Text End */
+/* Container End */
+
