@@ -109,8 +109,13 @@ header {
 /* Section One End */
 
 /* Section Second Start */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .section-second {
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
   background-color: #2e2d2d;
   display: flex;
   flex-direction: column;
@@ -126,7 +131,6 @@ header {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
   padding: 40px 20px;
   border-radius: 10px;
 }
@@ -405,8 +409,8 @@ header {
 /* Mobil uyumluluk */
 @media (max-width: 768px) {
   .footer-bottom-container {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 }
 
