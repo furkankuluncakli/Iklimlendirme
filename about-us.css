@@ -116,21 +116,21 @@ header {
 
 /* Genel Yazı Tipi ve Stil */
 .mission, .vision, .principles {
-    font-family: 'Montserrat', sans-serif; /* Yazı tipi */
+    font-family: 'Montserrat', sans-serif; 
     line-height: 1.6;
-    margin-bottom: 30px; /* Her bir bölümün altına boşluk ekler */
+    margin-bottom: 30px; 
 }
 
 /* Mission (Misyon) Bölümü */
 .mission h2 {
-    font-size: 22px; /* Başlık boyutu */
-    color: #4ca7e8; /* Başlık rengi */
+    font-size: 22px; 
+    color: #4ca7e8; 
     margin-bottom: 10px;
 }
 
 .mission p {
-    font-size: 16px; /* Paragraf yazı boyutu */
-    color: #333; /* Paragraf rengi */
+    font-size: 16px; 
+    color: #333; 
 }
 
 /* Vision (Vizyon) Bölümü */
@@ -150,7 +150,7 @@ header {
     font-size: 26px;
     color: #4ca7e8;
     margin-bottom: 20px;
-    text-align: left; /* Başlık ortalanır */
+    text-align: left; 
     font-weight: bold;
 }
 
