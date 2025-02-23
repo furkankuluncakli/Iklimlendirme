@@ -13,6 +13,7 @@ body {
 /* Navbar Start */
 
 header {
+  height: 75px;
   background-color: white;
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -102,7 +103,7 @@ header {
 
 /* Section One Start */
 .section-one {
-  height: 100vh;
+  height: calc(100vh - 75px);
   background-color: #888;
 }
 
@@ -154,15 +155,15 @@ header {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
 }
 
 .card:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
 
@@ -206,18 +207,18 @@ header {
   margin-bottom: 50px;
 }
 
-.ref-card {
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+.ref-card img {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-.ref-card:hover {
+.ref-card img:hover {
   transform: translateY(-10px);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .ref-card img {
   max-width: 250px;
   max-height: 250px;
-  object-fit: contain;
   border-radius: 10px;
 }
 
@@ -300,13 +301,11 @@ header {
 .footer {
   background-color: #222;
   color: #fff;
-  padding: 40px 20px;
+}
+.footer-wrapper {
+  padding: 40px 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 60px;
-  align-items: flex-start;
-  text-align: left;
+  justify-content: space-between;
 }
 
 .about-us {
@@ -322,12 +321,14 @@ header {
 }
 
 .about-us-text p {
+  padding: 0 3rem;
+  text-align: center;
   font-size: 14px;
   line-height: 1.6;
 }
 
 .footer-menu h3 {
-  font-size: 18px;
+  text-wrap: nowrap;
   margin-bottom: 10px;
 }
 
@@ -375,7 +376,7 @@ header {
 .footer-bottom {
   background-color: #111;
   color: #fff;
-  padding: 15px 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -383,7 +384,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* İçerikler arasındaki boşluğu ayarla */
+  gap: 10px;
 }
 
 .icons {
@@ -391,13 +392,13 @@ header {
   gap: 15px; /* İkonlar arasındaki boşluğu ayarla */
 }
 
-.icon a {
+.social-icon a {
   color: #fff;
   font-size: 20px;
   transition: color 0.3s;
 }
 
-.icon a:hover {
+.social-icon a:hover {
   color: #f39c12; /* Hover rengi */
 }
 
