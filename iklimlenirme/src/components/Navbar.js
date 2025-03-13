@@ -9,10 +9,7 @@ const Navbar = (props) => {
             <img src="img/logo.jpg" alt="Logo" />
             <div className="logo-text">
               <span>MÜHENDİSLİK</span>
-              <span>
-                {props.title == "Muhendislik" ? "Hosgeldiniz" : props.title}
-              </span>
-              <span>{props.hour > 18 ? "İyi Akşamlar" : "İyi Günler"}</span>
+              <span>PROJE YÖNETİMİ</span>
             </div>
           </div>
           <ul className="nav-menu">

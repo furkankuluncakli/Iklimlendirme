@@ -3,10 +3,9 @@ import styles from "./page.module.css";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
-  const hour = new Date().getHours();
   return (
     <>
-      <Navbar title={"Muhendislik"} hour={hour} />
+      <Navbar title={"Muhendislik"} />
       <main className="body-container">
         <section className="section-one">BÖLÜM 1</section>
 
