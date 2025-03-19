@@ -5,7 +5,7 @@ import styles from "./page.module.css"
 const page = () => {
   return (
     <>
-      <Navbar title={"HIZMET"} />
+      
       <div className={styles.bodyContainer}>
         <div className={styles.container}>
           <div className={styles.left}>

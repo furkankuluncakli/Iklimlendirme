@@ -1,0 +1,98 @@
+.sectionContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.footerWrapper {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 500px;
+}
+
+.aboutUsImg img {
+  width: 200px;
+  height: 200px;
+}
+
+.aboutUsText p {
+  padding: 0 3rem;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footerMenu h3 {
+  text-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.footerMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerMenu ul li {
+  margin-bottom: 8px;
+}
+
+.footerMenu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footerMenu ul li a:hover {
+  text-decoration: underline;
+  color: #f39c12;
+}
+
+.footerBottom {
+  background-color: #111;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footerBottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialIcon a {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.socialIcon a:hover {
+  color: #f39c12;
+}
+
+.footerBottomText p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cardBody {
+  padding: 20px;
+}

@@ -1,7 +1,10 @@
+"use client";
 import React from "react";
-import styles from "./navbar.module.css"
+import styles from "./navbar.module.css";
+import { usePathname } from "next/navigation";
 
 const Navbar = (props) => {
+  const route = usePathname();
   return (
     <>
       <header className={styles.header}>
@@ -14,13 +17,18 @@ const Navbar = (props) => {
             </div>
           </div>
           <ul className={styles.navMenu}>
-            <li>
-              <a href="/" className={styles.active}>
+            {route == "/" ? null : <li>
+              <a href="/" className={route == "/" ? styles.active : null}>
                 Anasayfa
               </a>
-            </li>
+            </li>}
             <li>
-              <a href="about-us">Hakkımızda</a>
+              <a
+                href="about-us"
+                className={route == "/about-us" ? styles.active : null}
+              >
+                Hakkımızda
+              </a>
             </li>
             <li>
               <a href="#">Hizmetlerimiz</a>
