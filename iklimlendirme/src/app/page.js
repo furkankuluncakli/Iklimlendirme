@@ -6,19 +6,19 @@ export default function Home() {
   return (
     <>
       <Navbar title={"Muhendislik"} />
-      <main className="body-container">
-        <section className="section-one">BÖLÜM 1</section>
+      <main className={styles.bodyContainer}>
+        <section className={styles.sectionOne}>BÖLÜM 1</section>
 
-        <section className="section-second">
-          <div className="section-container">
+        <section className={styles.sectionSecond}>
+          <div className={styles.sectionContainer}>
             <h2>HİZMETLERİMİZ</h2>
-            <div className="section-structure">
-              <div className="cards">
-                <div className="card">
-                  <div className="icon">
+            <div className={styles.sectionStructure}>
+              <div className={styles.cards}>
+                <div className={styles.card}>
+                  <div className={styles.icon}>
                     <i className="bi bi-fan"></i>
                   </div>
-                  <div className="card-body">
+                  <div className={styles.cardBody}>
                     <h4>Yerden Isıtma Sistemleri</h4>
                     <p>
                       Yerden ısıtma sistemleri ortamın zeminine boru ya da
@@ -27,11 +27,11 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="card">
-                  <div className="icon">
+                <div className={styles.card}>
+                  <div className={styles.icon}>
                     <i className="bi bi-cloud-fill"></i>
                   </div>
-                  <div className="card-body">
+                  <div className={styles.cardBody}>
                     <h4>Havalandırma Sistemleri</h4>
                     <p>
                       Havalandırma Sistemleri; Kapalı alanlar için gerekli olan,
@@ -42,8 +42,8 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="card">
-                  <div className="icon">
+                <div className={styles.card}>
+                  <div className={styles.icon}>
                     <i className="bi bi-thermometer"></i>
                   </div>
                   <div className={styles.cardBody}>
@@ -56,11 +56,11 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="card">
-                  <div className="icon">
+                <div className={styles.card}>
+                  <div className={styles.icon}>
                     <i className="bi bi-thermometer"></i>
                   </div>
-                  <div className="card-body">
+                  <div className={styles.cardBody}>
                     <h4>Soğutma Sistemleri</h4>
                     <p>
                       Üretim tesisleri, depolama alanları, oteller için gerekli
@@ -69,11 +69,11 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="card">
-                  <div className="icon">
+                <div className={styles.card}>
+                  <div className={styles.icon}>
                     <i className="bi bi-thermometer"></i>
                   </div>
-                  <div className="card-body">
+                  <div className={styles.cardBody}>
                     <h4>Yangın Söndürme Sistemleri</h4>
                     <p>
                       Kapalı alanlar için kurulumu zorunlu hale getirilen yangın
@@ -82,11 +82,11 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="card">
-                  <div className="icon">
+                <div className={styles.card}>
+                  <div className={styles.icon}>
                     <i className="bi bi-thermometer"></i>
                   </div>
-                  <div className="card-body">
+                  <div className={styles.cardBody}>
                     <h4>Sıhhi Tesisat</h4>
                     <p>
                       Mekanlar için gerekli olan sıhhi tesisat için yerinde
@@ -100,42 +100,42 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-third">
-          <div className="section-container">
+        <section className={styles.sectionThird}>
+          <div className={styles.sectionContainer}>
             <h2>REFERANSLARIMIZ</h2>
-            <div className="ref-container">
-              <div className="ref-cards">
-                <div className="ref-card">
+            <div className={styles.refContainer}>
+              <div className={styles.refCards}>
+                <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
-              <div className="ref-cards">
-                <div className="ref-card">
+              <div className={styles.refCards}>
+                <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
-              <div className="ref-cards">
-                <div className="ref-card">
+              <div className={styles.refCards}>
+                <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
-              <div className="ref-cards">
-                <div className="ref-card">
+              <div className={styles.refCards}>
+                <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
-              <div className="ref-cards">
-                <div className="ref-card">
+              <div className={styles.refCards}>
+                <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
-              <div className="ref-cards">
-                <div className="ref-card">
+              <div className={styles.refCards}>
+                <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
-              <div className="ref-cards">
-                <div className="ref-card">
+              <div className={styles.refCards}>
+                <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
@@ -143,28 +143,28 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-fourth">
-          <div className="section-container">
+        <section className={styles.sectionFourth}>
+          <div className={styles.sectionContainer}>
             <h2>İLETİŞİM</h2>
-            <div className="contact-container">
-              <div className="contact-info">
+            <div className={styles.contactContainer}>
+              <div className={styles.contactInfo}>
                 <h3>
                   <strong>İletişim Bilgileri</strong>
                 </h3>
-                <div className="contact-adress">
+                <div className={styles.contactAdress}>
                   <i className="bi bi-send-arrow-up"></i>
                   <p>
                     Fulya Mahallesi Ortaklar Caddesi Denizhan Sokak Lale Han
                     No:7 Kat:1 Daire:3, 34381 Şişli/İstanbul
                   </p>
                 </div>
-                <div className="contact-mail">
+                <div className={styles.contactMail}>
                   <i className="bi bi-envelope-at-fill"></i>
                   <a href="mailto:omerbener@gmail.com">
                     <span> omerbener@gmail.com </span>
                   </a>
                 </div>
-                <div className="contact-phone">
+                <div className={styles.contactPhone}>
                   <i className="bi bi-telephone-fill"></i>
                   <a href="tel:05331328430">
                     <span> 05331328430 </span>
@@ -172,7 +172,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="contact-map">
+              <div className={styles.contactMap}>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.6984139567703!2d35.34191752767538!3d36.992701657494656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15288f7508c8acd3%3A0xf207d8b1dd719ebe!2zU2luYW5wYcWfYSBNYWhhbGxlc2kgTXVodGFybMSxxJ_EsQ!5e0!3m2!1str!2str!4v1740083409837!5m2!1str!2str"
                   width="600"
@@ -187,14 +187,14 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="footer">
-          <div className="section-container footer-wrapper">
-            <div className="about-us">
-              <div className="about-us-img">
+        <section className={styles.footer}>
+          <div className={`${styles.sectionContainer} ${styles.footerWrapper}`}>
+            <div className={styles.aboutUs}>
+              <div className={styles.aboutUsImg}>
                 <img src="img/logo.jpg" alt="" />
               </div>
             </div>
-            <div className="about-us-text">
+            <div className={styles.aboutUsText}>
               <p>
                 SALT Mühendislik; Hastane, alışveriş merkezi, otel, konut, ofis,
                 restoran vb. yapılarda ısıtma tesisatı, soğutma tesisatı,
@@ -204,7 +204,7 @@ export default function Home() {
                 kurulmuştur.
               </p>
             </div>
-            <div className="footer-menu">
+            <div className={styles.footerMenu}>
               <h3>Hızlı Menü</h3>
               <ul>
                 <li>
@@ -225,25 +225,25 @@ export default function Home() {
         </section>
 
         <footer className={styles.footerBottom}>
-          <div className="footer-bottom-container">
-            <div className="icons">
-              <div className="social-icon">
+          <div className={styles.footerBottomContainer}>
+            <div className={styles.icons}>
+              <div className={styles.socialIcon}>
                 <a href="#">
                   <i className="bi bi-instagram"></i>
                 </a>
               </div>
-              <div className="social-icon">
+              <div className={styles.socialIcon}>
                 <a href="#">
                   <i className="bi bi-twitter"></i>
                 </a>
               </div>
-              <div className="social-icon">
+              <div className={styles.socialIcon}>
                 <a href="#">
                   <i className="bi bi-facebook"></i>
                 </a>
               </div>
             </div>
-            <div className="footer-bottom-text">
+            <div className={styles.footerBottomText}>
               <p>Tüm Hakları Saklıdır &COPY; 2025 Bener İklimlendirme</p>
             </div>
           </div>

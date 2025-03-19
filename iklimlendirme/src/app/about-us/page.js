@@ -1,16 +1,17 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
+import styles from "./page.module.css"
 
 const page = () => {
   return (
     <>
       <Navbar title={"HIZMET"} />
-      <div className="body-container">
-        <div className="container">
-          <div className="box left">
+      <div className={styles.bodyContainer}>
+        <div className={styles.container}>
+          <div className={styles.left}>
             <article>
-              <h2 className="body-title">Bener İklimlendirme Proje Yönetimi</h2>
-              <p>
+              <h2 className={styles.bodyTitle}>Bener İklimlendirme Proje Yönetimi</h2>
+              <p className={styles.description}>
                 SALT Mühendislik; Hastane, alışveriş merkezi, otel, konut, ofis,
                 restoran vb. yapılarda ısıtma tesisatı, soğutma tesisatı,
                 havalandırma tesisatı, yangın tesisatı ve sıhhi tesisat gibi
@@ -18,13 +19,13 @@ const page = () => {
                 hizmetleri vermek amacı ile 2017 yılında İstanbul’da
                 kurulmuştur.
               </p>
-              <p>
+              <p className={styles.description}>
                 Amacımız müşteri memnuniyeti ve kalite anlayışımızdan ödün
                 vermeden, alanımızdaki gelişme ve yenilikleri yakından takip
                 ederek sektördeki saygın, güvenilir firmalar arasında yer
                 almaktır.
               </p>
-              <p>
+              <p className={styles.description}>
                 Genç, dinamik kadromuz ile birlikte, şahsi tecrübe ve
                 referanslarımız, farklı bakış açılarımız, kurumsal altyapımız ve
                 gelişime açık amatör ruhumuz ile müşteri memnuniyetini ön planda
@@ -32,12 +33,12 @@ const page = () => {
               </p>
             </article>
           </div>
-          <div className="box right">
+          <div className={styles.right}>
             <img src="img/logo.jpg" alt="" />
           </div>
         </div>
-        <div className="text">
-          <section className="mission">
+        <div>
+          <section className={styles.mission}>
             <h2>Misyonumuz</h2>
             <p>
               Firmamız rekabette gerçek başarıyı sağlamak amacıyla; kurumsal
@@ -47,7 +48,7 @@ const page = () => {
             </p>
           </section>
 
-          <section className="vision">
+          <section className={styles.vision}>
             <h2>Vizyonumuz</h2>
             <p>
               Firmamız rekabette gerçek başarıyı sağlamak amacıyla; kurumsal
@@ -57,7 +58,7 @@ const page = () => {
             </p>
           </section>
 
-          <section className="principles">
+          <section className={styles.principles}>
             <h1>İLKELERİMİZ</h1>
             <h2>Dürüstlük, Güvenilirlik, Sorumluluk</h2>
             <p>

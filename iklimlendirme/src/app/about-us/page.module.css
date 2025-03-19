@@ -1,0 +1,83 @@
+.bodyContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 30%;
+}
+
+.right img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.bodyTitle {
+  margin-bottom: 1rem;
+}
+
+.mission,
+.vision,
+.principles {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.mission h2 {
+  font-size: 22px;
+  color: #4ca7e8;
+  margin-bottom: 10px;
+}
+
+.mission p {
+  font-size: 16px;
+  color: #333;
+}
+
+.vision h2 {
+  font-size: 22px;
+  color: #4ca7e8;
+  margin-bottom: 10px;
+}
+
+.vision p {
+  font-size: 16px;
+  color: #333;
+}
+
+.principles h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #4ca7e8;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.principles h2 {
+  font-size: 20px;
+  color: #4ca7e8;
+  margin-bottom: 8px;
+}
+
+.principles p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 15px;
+}

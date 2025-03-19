@@ -1,0 +1,281 @@
+/* .bodyContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+} */
+
+.sectionOne {
+  height: calc(100vh - 75px);
+  background-color: #888;
+}
+
+.sectionSecond {
+  height: 100vh;
+  max-height: 100vh;
+  background-color: #2e2d2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f6cab6;
+}
+.sectionSecond h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.sectionContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionStructure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  min-height: 250px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 60px;
+  color: #ff6f61;
+}
+
+.cardBody {
+  margin-top: 15px;
+}
+
+.sectionThird {
+  height: 100vh;
+  padding: 50px 20px;
+  background-color: #d8906e;
+  text-align: center;
+ 
+}
+
+
+.sectionThird h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.refContainer {
+  width: 100%;
+  padding: 40px 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.refCards {
+  margin-bottom: 50px;
+}
+
+.refCard img {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+}
+
+.refCard img:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contactContainer {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contactInfo {
+  width: 48%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  height: 400px;
+}
+
+.contactInfo h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.contactAdress,
+.contactMail,
+.contactPhone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contactAdress i,
+.contactMail i,
+.contactPhone i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.contactMap {
+  flex: 1;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.contactMap iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.sectionFourth {
+  min-height: 50vh;
+  background-color: #e97844;
+  padding: 50px 20px;
+}
+
+.sectionFourth h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.footerWrapper {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 500px;
+}
+
+.aboutUsImg img {
+  width: 200px;
+  height: 200px;
+}
+
+.aboutUsText p {
+  padding: 0 3rem;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footerMenu h3 {
+  text-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.footerMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerMenu ul li {
+  margin-bottom: 8px;
+}
+
+.footerMenu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footerMenu ul li a:hover {
+  text-decoration: underline;
+  color: #f39c12;
+}
+
+.footerBottom {
+  background-color: #111;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footerBottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialIcon a {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.socialIcon a:hover {
+  color: #f39c12;
+}
+
+.footerBottomText p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cardBody {
+  padding: 20px;
+}

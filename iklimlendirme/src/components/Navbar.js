@@ -1,20 +1,21 @@
 import React from "react";
+import styles from "./navbar.module.css"
 
 const Navbar = (props) => {
   return (
     <>
-      <header>
-        <nav className="navbar">
-          <div className="logo">
+      <header className={styles.header}>
+        <nav className={styles.navbar}>
+          <div className={styles.logo}>
             <img src="img/logo.jpg" alt="Logo" />
-            <div className="logo-text">
+            <div className={styles.logoText}>
               <span>MÜHENDİSLİK</span>
-              <span>PROJE YÖNETİMİ</span>
+              <span>{props.title}</span>
             </div>
           </div>
-          <ul className="nav-menu">
+          <ul className={styles.navMenu}>
             <li>
-              <a href="/" className="active">
+              <a href="/" className={styles.active}>
                 Anasayfa
               </a>
             </li>
