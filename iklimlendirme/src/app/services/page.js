@@ -9,7 +9,7 @@ const Service = () => {
         <div className={styles.container}>
           <div className={styles.contentWrapper}>
             <div className={styles.image}>
-              <img src="img/logo.jpg" alt="" />
+              <img src="img/havalandirma.jpg" alt="" />
             </div>
             <div className={styles.text}>
               <article>

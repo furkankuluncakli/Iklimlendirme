@@ -34,7 +34,7 @@ const Navbar = (props) => {
               <a href="/services">Hizmetlerimiz</a>
             </li>
             <li>
-              <a href="#">Projelerimiz</a>
+              <a href="/projects">Projelerimiz</a>
             </li>
             <li>
               <a href="#">Referanslarımız</a>
