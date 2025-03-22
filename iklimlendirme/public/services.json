@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "img": "img/logo-19.png",
+    "title": "Hizmet 1",
+    "description": "Açıklama 1"
+  },
+  {
+    "id": 2,
+    "img": "img/logo.jpg",
+    "title": "Hizmet 2",
+    "description": "Açıklama 2"
+  },
+  {
+    "id": 3,
+    "img": "img/logo-19.png",
+    "title": "Hizmet 3",
+    "description": "Açıklama 3"
+  },
+  {
+    "id": 4,
+    "img": "img/logo.jpg",
+    "title": "Hizmet 4",
+    "description": "Açıklama 4"
+  },
+  {
+    "id": 5,
+    "img": "img/logo.jpg",
+    "title": "Hizmet 5",
+    "description": "Açıklama 5"
+  }
+]
