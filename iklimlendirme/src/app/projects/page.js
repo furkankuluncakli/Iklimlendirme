@@ -19,8 +19,6 @@ const Projects = () => {
           {services.map((service) => (
             <div key={service.id} className={styles.card}>
               <img src={service.img} alt={service.title} />
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
             </div>
           ))}
         </div>
