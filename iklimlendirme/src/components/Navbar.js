@@ -17,14 +17,16 @@ const Navbar = (props) => {
             </div>
           </div>
           <ul className={styles.navMenu}>
-            {route == "/" ? null : <li>
-              <a href="/" className={route == "/" ? styles.active : null}>
-                Anasayfa
-              </a>
-            </li>}
+            {route == "/" ? null : (
+              <li>
+                <a href="/" className={route == "/" ? styles.active : null}>
+                  Anasayfa
+                </a>
+              </li>
+            )}
             <li>
               <a
-                href="about-us"
+                href="/about-us"
                 className={route == "/about-us" ? styles.active : null}
               >
                 Hakkımızda
@@ -43,7 +45,7 @@ const Navbar = (props) => {
               <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">İletişim</a>
+              <a href="/contact-us">İletişim</a>
             </li>
           </ul>
         </nav>

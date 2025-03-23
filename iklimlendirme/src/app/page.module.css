@@ -4,18 +4,13 @@
 
 .overlayText {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 30px 20px;
+  left: 30px;
+  top: 350px;
+  padding: 40px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
   text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .overlayTitle {
@@ -35,25 +30,12 @@
 .imgContainer img {
   height: calc(100vh - 75px);
   width: 100%;
-  filter: blur(2px); 
 }
 
-.overlayActions{
-  margin-top: 25px;
+.sectionOne {
+  /* height: calc(100vh - 75px); */
+  /* background-color: #888; */
 }
-
-.overlayButton{
-  background-color: #ff6f61;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-  
-}
-
 
 .sectionSecond {
   height: 100vh;
