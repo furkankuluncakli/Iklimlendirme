@@ -2,13 +2,29 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "@/components/Navbar";
 
-
 export default function Home() {
   return (
     <>
-      
       <main className={styles.bodyContainer}>
-        <section className={styles.sectionOne}>BÖLÜM 1</section>
+        <section className={styles.sectionOne}>
+          <div className={styles.imgContainer}>
+            <img src="img/main.jpg" alt="BNR İklimlendirme Sistemleri"/>
+            <div className={styles.overlayText}>
+              <h2 className={styles.overlayTitle}>BNR İKLİMLENDİRME</h2>
+              <p className={styles.overlayDescription}>
+                Fabrikalarda, AVM’lerde ve konut projelerinde profesyonel
+                çözümler sunuyoruz.
+              </p>
+              <p className={styles.overlayDescription}>
+                Daha düşük enerji tüketimi ve yüksek verimlilik sağlayan
+                sistemler.
+              </p>
+              <a href="#iletisim" className={styles.overlayButton}>
+                İLETİŞİM
+              </a>
+            </div>
+          </div>
+        </section>
 
         <section className={styles.sectionSecond}>
           <div className={styles.sectionContainer}>
@@ -187,8 +203,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-
       </main>
     </>
   );

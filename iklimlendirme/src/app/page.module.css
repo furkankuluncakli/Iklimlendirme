@@ -1,12 +1,50 @@
-/* .bodyContainer {
-  margin: 0 auto;
-  max-width: 1200px;
-} */
-
-.sectionOne {
-  height: calc(100vh - 75px);
-  background-color: #888;
+.imgContainer {
+  position: relative;
 }
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  text-align: center;
+}
+
+.overlayTitle {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.overlayDescription {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.imgContainer img {
+  height: calc(100vh - 75px);
+  width: 100%;
+  filter: blur(2px); 
+}
+
+.overlayButton{
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
 
 .sectionSecond {
   height: 100vh;
@@ -79,9 +117,7 @@
   padding: 50px 20px;
   background-color: #d8906e;
   text-align: center;
- 
 }
-
 
 .sectionThird h2 {
   font-size: 28px;
@@ -185,4 +221,3 @@
   color: #333;
   margin-bottom: 30px;
 }
-
