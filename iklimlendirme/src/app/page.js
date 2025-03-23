@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.bodyContainer}>
         <section className={styles.sectionOne}>
           <div className={styles.imgContainer}>
-            <img src="img/main.jpg" alt="BNR İklimlendirme Sistemleri"/>
+            <img src="img/main.jpg" alt="BNR İklimlendirme Sistemleri" />
             <div className={styles.overlayText}>
               <h2 className={styles.overlayTitle}>BNR İKLİMLENDİRME</h2>
               <p className={styles.overlayDescription}>
@@ -19,9 +19,11 @@ export default function Home() {
                 Daha düşük enerji tüketimi ve yüksek verimlilik sağlayan
                 sistemler.
               </p>
-              <a href="#iletisim" className={styles.overlayButton}>
-                İLETİŞİM
-              </a>
+              <div className={styles.overlayActions}>
+                <a href="#iletisim" className={styles.overlayButton}>
+                  İLETİŞİM
+                </a>
+              </div>
             </div>
           </div>
         </section>
