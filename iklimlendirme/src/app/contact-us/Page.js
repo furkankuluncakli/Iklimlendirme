@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./page.module.css";
+import { BsEnvelope, BsGeoAlt, BsTelephone } from "react-icons/bs";
+
 
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({
@@ -29,15 +31,15 @@ const ContactUsPage = () => {
             ulaşabilirsiniz. Ekibimiz en kısa sürede size dönüş yapacaktır.
           </p>
           <div className={styles.contactItem}>
-            <i className="bi bi-telephone"></i>
+          <BsTelephone className={styles.contactIcon}/>
             <span>0555 555 55 55</span>
           </div>
           <div className={styles.contactItem}>
-            <i className="bi bi-envelope"></i>
+          <BsEnvelope className={styles.contactIcon}/>
             <span>"mailto:@omerbener"</span>
           </div>
           <div className={styles.contactItem}>
-            <i className="bi bi-geo-alt"></i>
+          <BsGeoAlt className={styles.contactIcon}/>
             <span>adana zort mah. zart sokak</span>
           </div>
         </div>
