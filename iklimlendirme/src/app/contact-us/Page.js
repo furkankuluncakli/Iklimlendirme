@@ -1,7 +1,24 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./page.module.css";
 
-const Page = () => {
+const ContactUsPage = () => {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    phone: "",
+    mail: "",
+    message: "",
+  });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+    console.log(formData);
+  };
   return (
     <>
       <div className={styles.container}>
@@ -30,6 +47,8 @@ const Page = () => {
               İsim
             </label>
             <input
+              onChange={handleChange}
+              value={formData.firstName}
               type="text"
               id="firstName"
               placeholder="İsminizi Girin"
@@ -40,6 +59,8 @@ const Page = () => {
               Soyisim
             </label>
             <input
+              onChange={handleChange}
+              value={formData.lastName}
               type="text"
               id="lastName"
               placeholder="Soyadınızı Girin"
@@ -50,6 +71,8 @@ const Page = () => {
               Email
             </label>
             <input
+              onChange={handleChange}
+              value={formData.mail}
               type="email"
               id="email"
               placeholder="Email Adresinizi Girin"
@@ -60,6 +83,8 @@ const Page = () => {
               Telefon
             </label>
             <input
+              onChange={handleChange}
+              value={formData.phone}
               type="number"
               id="phone"
               placeholder="Telefon Numaranızı Girin"
@@ -70,12 +95,16 @@ const Page = () => {
               Mesaj
             </label>
             <textarea
+              onChange={handleChange}
+              value={formData.message}
               id="message"
               placeholder="Mesajınızı Yazın"
               className={styles.formTextarea}
             ></textarea>
 
-            <button className={styles.formBtn}>Gönder</button>
+            <button className={styles.formBtn} onSubmit={handleChange}>
+              Gönder
+            </button>
           </form>
         </div>
       </div>
@@ -83,4 +112,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ContactUsPage;

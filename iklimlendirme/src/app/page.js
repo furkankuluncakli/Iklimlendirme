@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "@/components/Navbar";
+import { FaFan } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
               <div className={styles.cards}>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                    <i className="bi bi-fan"></i>
+                    <FaFan/>
                   </div>
                   <div className={styles.cardBody}>
                     <h4>Yerden Isıtma Sistemleri</h4>
