@@ -61,7 +61,7 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.footerBottomText}>
-              <p>Tüm Hakları Saklıdır &COPY; 2025 Bener İklimlendirme</p>
+              <p>Tüm Hakları Saklıdır &copy; 2025 BNR İklimlendirme</p>
             </div>
           </div>
         </footer>

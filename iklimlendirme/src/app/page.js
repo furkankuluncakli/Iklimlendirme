@@ -1,7 +1,8 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import Navbar from "@/components/Navbar";
-import { FaFan } from "react-icons/fa";
+import { FaFan, FaFireExtinguisher, FaThermometerEmpty} from "react-icons/fa";
+import { LuAirVent } from "react-icons/lu";
+import { TbAirConditioning } from "react-icons/tb";
+import { MdPlumbing } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -49,7 +50,7 @@ export default function Home() {
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                    <i className="bi bi-cloud-fill"></i>
+                  <LuAirVent />
                   </div>
                   <div className={styles.cardBody}>
                     <h4>Havalandırma Sistemleri</h4>
@@ -64,7 +65,7 @@ export default function Home() {
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                    <i className="bi bi-thermometer"></i>
+                  <FaThermometerEmpty />
                   </div>
                   <div className={styles.cardBody}>
                     <h4>Isıtma Sistemleri</h4>
@@ -78,7 +79,7 @@ export default function Home() {
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                    <i className="bi bi-thermometer"></i>
+                  <TbAirConditioning />
                   </div>
                   <div className={styles.cardBody}>
                     <h4>Soğutma Sistemleri</h4>
@@ -91,7 +92,7 @@ export default function Home() {
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                    <i className="bi bi-thermometer"></i>
+                  <FaFireExtinguisher />
                   </div>
                   <div className={styles.cardBody}>
                     <h4>Yangın Söndürme Sistemleri</h4>
@@ -104,7 +105,7 @@ export default function Home() {
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                    <i className="bi bi-thermometer"></i>
+                  <MdPlumbing />
                   </div>
                   <div className={styles.cardBody}>
                     <h4>Sıhhi Tesisat</h4>
