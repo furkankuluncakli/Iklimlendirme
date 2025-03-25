@@ -4,78 +4,78 @@ import styles from "./page.module.css";
 const Page = () => {
   return (
     <>
-      <div class={styles.container}>
-        <div class="contactText">
-          <h2 class="contactTitle">Bizimle İletişime Geç</h2>
-          <p class="contactDescription">
+      <div className={styles.container}>
+        <div className={styles.contactText}>
+          <h2 className={styles.contactTitle}>Bizimle İletişime Geç</h2>
+          <p className={styles.contactDescription}>
             Sorularınız, talepleriniz veya projeleriniz hakkında bize
             ulaşabilirsiniz. Ekibimiz en kısa sürede size dönüş yapacaktır.
           </p>
-          <div class="contactItem">
-            <i class="bi bi-telephone"></i>
+          <div className={styles.contactItem}>
+            <i className="bi bi-telephone"></i>
             <span>0555 555 55 55</span>
           </div>
-          <div class="contactItem">
-            <i class="bi bi-envelope"></i>
+          <div className={styles.contactItem}>
+            <i className="bi bi-envelope"></i>
             <span>"mailto:@omerbener"</span>
           </div>
-          <div class="contactItem">
-            <i class="bi bi-geo-alt"></i>
+          <div className={styles.contactItem}>
+            <i className="bi bi-geo-alt"></i>
             <span>adana zort mah. zart sokak</span>
           </div>
         </div>
-        <div class="formContainer">
+        <div className={styles.formContainer}>
           <form>
-            <label for="firstName" class="formLabel">
+            <label htmlFor="firstName" className={styles.formLabel}>
               İsim
             </label>
             <input
               type="text"
               id="firstName"
               placeholder="İsminizi Girin"
-              class="formInput"
+              className={styles.formInput}
             />
 
-            <label for="lastName" class="formLabel">
+            <label htmlFor="lastName" className={styles.formLabel}>
               Soyisim
             </label>
             <input
               type="text"
               id="lastName"
               placeholder="Soyadınızı Girin"
-              class="formInput"
+              className={styles.formInput}
             />
 
-            <label for="email" class="formLabel">
+            <label htmlFor="email" className={styles.formLabel}>
               Email
             </label>
             <input
               type="email"
               id="email"
               placeholder="Email Adresinizi Girin"
-              class="formInput"
+              className={styles.formInput}
             />
 
-            <label for="phone" class="formLabel">
+            <label htmlFor="phone" className={styles.formLabel}>
               Telefon
             </label>
             <input
               type="number"
               id="phone"
               placeholder="Telefon Numaranızı Girin"
-              class="formInput"
+              className={styles.formInput}
             />
 
-            <label for="message" class="formLabel">
+            <label htmlFor="message" className={styles.formLabel}>
               Mesaj
             </label>
             <textarea
               id="message"
               placeholder="Mesajınızı Yazın"
-              class="formTextarea"
+              className={styles.formTextarea}
             ></textarea>
 
-            <button class="formBtn">Gönder</button>
+            <button className={styles.formBtn}>Gönder</button>
           </form>
         </div>
       </div>
