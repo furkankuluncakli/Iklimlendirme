@@ -44,12 +44,12 @@
 }
 
 .imgContainer img {
-  height: calc(100vh - 75px);
+  height: calc(100vh - 70px);
   width: 100%;
 }
 
 .sectionOne {
-  /* height: calc(100vh - 75px); */
+  height: calc(100vh - 70px);
   /* background-color: #888; */
 }
 
