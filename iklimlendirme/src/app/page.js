@@ -22,7 +22,7 @@ export default function Home() {
                 sistemler.
               </p>
               <div className={styles.overlayActions}>
-                <a href="#iletisim" className={styles.overlayButton}>
+                <a href="/contact-us" className={styles.overlayButton}>
                   İLETİŞİM
                 </a>
               </div>
