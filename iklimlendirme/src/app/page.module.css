@@ -50,25 +50,23 @@
 
 .sectionOne {
   height: calc(100vh - 70px);
-  /* background-color: #888; */
 }
 
 .sectionSecond {
   height: 100vh;
   max-height: 100vh;
-  background-color: #2e2d2d;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 50px 20px;
-  background-color: #f6cab6;
+  background-color: #f4f4f4;
 }
 .sectionSecond h2 {
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+  color: #4ca7e8;
   margin-bottom: 30px;
 }
 
@@ -112,7 +110,7 @@
 
 .icon {
   font-size: 60px;
-  color: #ff6f61;
+  color: #4ca7e8;
 }
 
 .cardBody {
@@ -122,14 +120,14 @@
 .sectionThird {
   height: 100vh;
   padding: 50px 20px;
-  background-color: #d8906e;
+  background-color: #f4f4f4;
   text-align: center;
 }
 
 .sectionThird h2 {
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+  color: #4ca7e8;
   margin-bottom: 30px;
 }
 
@@ -217,7 +215,7 @@
 
 .sectionFourth {
   min-height: 50vh;
-  background-color: #e97844;
+  background-color: #f4f4f4;
   padding: 50px 20px;
 }
 
@@ -225,6 +223,6 @@
   text-align: center;
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+  color: #4ca7e8;
   margin-bottom: 30px;
 }
