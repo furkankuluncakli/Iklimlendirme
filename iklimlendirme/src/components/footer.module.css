@@ -28,7 +28,7 @@
 
 .aboutUsText p {
   padding: 0 3rem;
-  text-align: center;
+  text-align: start;
   font-size: 14px;
   line-height: 1.6;
 }

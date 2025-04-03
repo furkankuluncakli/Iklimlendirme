@@ -13,12 +13,7 @@ const Footer = () => {
             </div>
             <div className={styles.aboutUsText}>
               <p>
-                SALT Mühendislik; Hastane, alışveriş merkezi, otel, konut, ofis,
-                restoran vb. yapılarda ısıtma tesisatı, soğutma tesisatı,
-                havalandırma tesisatı, yangın tesisatı ve sıhhi tesisat gibi
-                mekanik tesisat alanlarında proje, taahhüt ve danışmanlık
-                hizmetleri vermek amacı ile 2017 yılında İstanbul’da
-                kurulmuştur.
+                BNR İklimlendirme, 2025 yılında kurulmuş olup, hastane, alışveriş merkezi, otel, konut, ofis ve restoran gibi yapılarda ısıtma, soğutma, havalandırma, taze hava, izolasyon, galvaniz sac, konfor, yangın ve sıhhi tesisat gibi mekanik tesisat alanlarında proje, taahhüt ve danışmanlık hizmetleri sunmaktadır.
               </p>
             </div>
             <div className={styles.footerMenu}>

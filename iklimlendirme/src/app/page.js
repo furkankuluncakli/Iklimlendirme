@@ -1,8 +1,9 @@
 import styles from "./page.module.css";
-import { FaFan, FaFireExtinguisher, FaThermometerEmpty} from "react-icons/fa";
+import { FaFan, FaFireExtinguisher, FaThermometerEmpty } from "react-icons/fa";
 import { LuAirVent } from "react-icons/lu";
 import { TbAirConditioning } from "react-icons/tb";
 import { MdPlumbing } from "react-icons/md";
+import { BsEnvelope, BsGeoAlt, BsTelephone } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -37,67 +38,91 @@ export default function Home() {
               <div className={styles.cards}>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                    <FaFan/>
+                    <FaFan />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4 className={styles.cardBodyTitle}>Yerden Isıtma Sistemleri</h4>
+                    <h4 className={styles.cardBodyTitle}>
+                      Yerden Isıtma Sistemleri
+                    </h4>
                     <p className={styles.cardBodyDescription}>
-                      Yerden ısıtma sistemleri, zemine entegre edilen boru veya kablolar aracılığıyla ortamın homojen bir şekilde ısınmasını sağlayan konforlu ve verimli bir ısıtma çözümüdür.
+                      Yerden ısıtma sistemleri, zemine entegre edilen boru veya
+                      kablolar aracılığıyla ortamın homojen bir şekilde
+                      ısınmasını sağlayan konforlu ve verimli bir ısıtma
+                      çözümüdür.
                     </p>
                   </div>
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                  <LuAirVent />
+                    <LuAirVent />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4 className={styles.cardBodyTitle}>Havalandırma Sistemleri</h4>
+                    <h4 className={styles.cardBodyTitle}>
+                      Havalandırma Sistemleri
+                    </h4>
                     <p className={styles.cardBodyDescription}>
-                      Kapalı alanlarda temiz hava sirkülasyonunu sağlamak için farklı havalandırma çözümleri sunuyoruz. Yerinde ücretsiz keşif ile en uygun sistemi belirliyor, projelendirme, montaj ve bakım hizmetlerini eksiksiz şekilde gerçekleştiriyoruz.
+                      Kapalı alanlarda temiz hava sirkülasyonunu sağlamak için
+                      farklı havalandırma çözümleri sunuyoruz. Yerinde ücretsiz
+                      keşif ile en uygun sistemi belirliyor, projelendirme,
+                      montaj ve bakım hizmetlerini eksiksiz şekilde
+                      gerçekleştiriyoruz.
                     </p>
                   </div>
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                  <FaThermometerEmpty />
+                    <FaThermometerEmpty />
                   </div>
                   <div className={styles.cardBody}>
                     <h4 className={styles.cardBodyTitle}>Isıtma Sistemleri</h4>
                     <p className={styles.cardBodyDescription}>
-                      Konut, iş yeri, okul ve fabrikalar için özel ısıtma çözümleri sunuyoruz. İhtiyaca uygun sistemlerin kurulumunu yaparak uzun ömürlü ve verimli kullanım için bakım-onarım desteği sağlıyoruz.
+                      Konut, iş yeri, okul ve fabrikalar için özel ısıtma
+                      çözümleri sunuyoruz. İhtiyaca uygun sistemlerin kurulumunu
+                      yaparak uzun ömürlü ve verimli kullanım için bakım-onarım
+                      desteği sağlıyoruz.
                     </p>
                   </div>
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                  <TbAirConditioning />
+                    <TbAirConditioning />
                   </div>
                   <div className={styles.cardBody}>
                     <h4 className={styles.cardBodyTitle}>Soğutma Sistemleri</h4>
                     <p className={styles.cardBodyDescription}>
-                      Üretim tesisleri, depolar ve oteller gibi alanlarda ideal sıcaklık koşullarını sağlamak için gelişmiş soğutma sistemleri kuruyoruz. Projelendirme sürecinden montaj ve periyodik bakıma kadar kapsamlı hizmet sunuyoruz.
+                      Üretim tesisleri, depolar ve oteller gibi alanlarda ideal
+                      sıcaklık koşullarını sağlamak için gelişmiş soğutma
+                      sistemleri kuruyoruz. Projelendirme sürecinden montaj ve
+                      periyodik bakıma kadar kapsamlı hizmet sunuyoruz.
                     </p>
                   </div>
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                  <FaFireExtinguisher />
+                    <FaFireExtinguisher />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4 className={styles.cardBodyTitle}>Yangın Söndürme Sistemleri</h4>
+                    <h4 className={styles.cardBodyTitle}>
+                      Yangın Söndürme Sistemleri
+                    </h4>
                     <p className={styles.cardBodyDescription}>
-                      Güvenliğinizi en üst seviyeye taşımak için zorunlu yangın söndürme sistemlerini projelendiriyor, kurulumunu gerçekleştiriyor ve düzenli bakım hizmeti sunuyoruz.
+                      Güvenliğinizi en üst seviyeye taşımak için zorunlu yangın
+                      söndürme sistemlerini projelendiriyor, kurulumunu
+                      gerçekleştiriyor ve düzenli bakım hizmeti sunuyoruz.
                     </p>
                   </div>
                 </div>
                 <div className={styles.card}>
                   <div className={styles.icon}>
-                  <MdPlumbing />
+                    <MdPlumbing />
                   </div>
                   <div className={styles.cardBody}>
                     <h4 className={styles.cardBodyTitle}>Sıhhi Tesisat</h4>
                     <p className={styles.cardBodyDescription}>
-                      Yaşam ve çalışma alanlarınız için sıhhi tesisat sistemlerini en verimli şekilde tasarlıyoruz. Ücretsiz keşif hizmetimizle ihtiyacınızı belirleyerek, uzun ömürlü ve güvenilir çözümler sunuyoruz.
+                      Yaşam ve çalışma alanlarınız için sıhhi tesisat
+                      sistemlerini en verimli şekilde tasarlıyoruz. Ücretsiz
+                      keşif hizmetimizle ihtiyacınızı belirleyerek, uzun ömürlü
+                      ve güvenilir çözümler sunuyoruz.
                     </p>
                   </div>
                 </div>
@@ -158,29 +183,26 @@ export default function Home() {
                   <strong>İletişim Bilgileri</strong>
                 </h3>
                 <div className={styles.contactAdress}>
-                  <i className="bi bi-send-arrow-up"></i>
-                  <p>
-                    Fulya Mahallesi Ortaklar Caddesi Denizhan Sokak Lale Han
-                    No:7 Kat:1 Daire:3, 34381 Şişli/İstanbul
-                  </p>
+                  <BsTelephone className={styles.contactIcon}/>
+                  <p className={styles.contactText}>Levent Mahallesi 1830 Sokak No:47 Yüreğir/Adana</p>
                 </div>
                 <div className={styles.contactMail}>
-                  <i className="bi bi-envelope-at-fill"></i>
-                  <a href="mailto:omerbener@gmail.com">
-                    <span> omerbener@gmail.com </span>
+                  <BsEnvelope className={styles.contactIcon}/>
+                  <a href="mailto:bnriklimlendirme@gmail.com" className={styles.contactLink}>
+                    <span className={styles.contactText}> bnriklimlendirme@gmail.com </span>
                   </a>
                 </div>
                 <div className={styles.contactPhone}>
-                  <i className="bi bi-telephone-fill"></i>
-                  <a href="tel:05331328430">
-                    <span> 05331328430 </span>
+                  <BsGeoAlt className={styles.contactIcon}/>
+                  <a href="tel:+905446653943" className={styles.contactLink}>
+                    <span className={styles.contactText}> 0544 665 39 43 </span>
                   </a>
                 </div>
               </div>
 
               <div className={styles.contactMap}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.6984139567703!2d35.34191752767538!3d36.992701657494656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15288f7508c8acd3%3A0xf207d8b1dd719ebe!2zU2luYW5wYcWfYSBNYWhhbGxlc2kgTXVodGFybMSxxJ_EsQ!5e0!3m2!1str!2str!4v1740083409837!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.629345516051!2d35.37539407627602!3d36.98157465745371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15288fe843998199%3A0xb4d3bdb463cc7397!2sLevent%2C%201830.%20Sk.%20No%3A47%2C%2001316%20Y%C3%BCre%C4%9Fir%2FAdana!5e1!3m2!1str!2str!4v1743694069991!5m2!1str!2str"
                   width="600"
                   height="450"
                   style={{ border: 0 }}
