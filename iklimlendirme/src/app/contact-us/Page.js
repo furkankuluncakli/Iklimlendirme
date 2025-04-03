@@ -30,17 +30,20 @@ const ContactUsPage = () => {
             Sorularınız, talepleriniz veya projeleriniz hakkında bize
             ulaşabilirsiniz. Ekibimiz en kısa sürede size dönüş yapacaktır.
           </p>
-          <div className={styles.contactItem}>
-          <BsTelephone className={styles.contactIcon}/>
-            <span>0555 555 55 55</span>
+          <div className={styles.contactAdress}>
+            <BsGeoAlt className={styles.contactIcon}/>
+            <p className={styles.contactText}>Levent Mahallesi 1830 Sokak No:47 Yüreğir/Adana</p>
           </div>
-          <div className={styles.contactItem}>
+          <div className={styles.contactMail}>
           <BsEnvelope className={styles.contactIcon}/>
-            <span>"mailto:@omerbener"</span>
+          <a href="mailto:bnriklimlendirme@gmail.com" className={styles.contactLink}>
+            <span className={styles.contactText}> bnriklimlendirme@gmail.com </span></a>
           </div>
-          <div className={styles.contactItem}>
-          <BsGeoAlt className={styles.contactIcon}/>
-            <span>adana zort mah. zart sokak</span>
+          <div className={styles.contactPhone}>
+          <BsTelephone className={styles.contactIcon}/>                  
+          <a href="tel:+905446653943" className={styles.contactLink}>
+            <span className={styles.contactText}> 0544 665 39 43 </span>
+          </a>
           </div>
         </div>
         <div className={styles.formContainer}>

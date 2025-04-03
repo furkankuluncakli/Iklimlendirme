@@ -193,12 +193,6 @@
   margin-bottom: 20px;
 }
 
-.contactInfo a {
-  text-decoration: none;
-  color: #333;
-  font-size: 16px;
-}
-
 .contactIcon{
   margin-right: 10px;
   font-size: 1.7rem;
@@ -224,13 +218,6 @@
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-}
-
-.contactAdress i,
-.contactMail i,
-.contactPhone i {
-  margin-right: 10px;
-  font-size: 20px;
 }
 
 .contactMap {
