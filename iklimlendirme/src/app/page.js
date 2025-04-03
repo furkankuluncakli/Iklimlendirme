@@ -183,7 +183,7 @@ export default function Home() {
                   <strong>İletişim Bilgileri</strong>
                 </h3>
                 <div className={styles.contactAdress}>
-                  <BsTelephone className={styles.contactIcon}/>
+                  <BsGeoAlt className={styles.contactIcon}/>
                   <p className={styles.contactText}>Levent Mahallesi 1830 Sokak No:47 Yüreğir/Adana</p>
                 </div>
                 <div className={styles.contactMail}>
@@ -193,7 +193,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className={styles.contactPhone}>
-                  <BsGeoAlt className={styles.contactIcon}/>
+                  <BsTelephone className={styles.contactIcon}/>                  
                   <a href="tel:+905446653943" className={styles.contactLink}>
                     <span className={styles.contactText}> 0544 665 39 43 </span>
                   </a>
