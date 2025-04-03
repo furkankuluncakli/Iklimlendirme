@@ -114,7 +114,16 @@
 }
 
 .cardBody {
-  margin-top: 15px;
+  margin-top: 1rem;
+}
+
+.cardBodyTitle{
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.cardBodyDescription{
+  text-align: start;
 }
 
 .sectionThird {

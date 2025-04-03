@@ -40,11 +40,9 @@ export default function Home() {
                     <FaFan/>
                   </div>
                   <div className={styles.cardBody}>
-                    <h4>Yerden Isıtma Sistemleri</h4>
-                    <p>
-                      Yerden ısıtma sistemleri ortamın zeminine boru ya da
-                      kablolar ile döşenen mekanın ısınmasını sağlayan ısıtma
-                      sistemleridir.
+                    <h4 className={styles.cardBodyTitle}>Yerden Isıtma Sistemleri</h4>
+                    <p className={styles.cardBodyDescription}>
+                      Yerden ısıtma sistemleri, zemine entegre edilen boru veya kablolar aracılığıyla ortamın homojen bir şekilde ısınmasını sağlayan konforlu ve verimli bir ısıtma çözümüdür.
                     </p>
                   </div>
                 </div>
@@ -53,13 +51,9 @@ export default function Home() {
                   <LuAirVent />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4>Havalandırma Sistemleri</h4>
-                    <p>
-                      Havalandırma Sistemleri; Kapalı alanlar için gerekli olan,
-                      çeşitli seçenekleri bulunan havalandırma sistemleri ile
-                      ilgili müşterilerimize yerinde ücretsiz keşif imkanı
-                      sunuyor, projelendirme, bakım-onarım süreçlerini
-                      yönetiyoruz.
+                    <h4 className={styles.cardBodyTitle}>Havalandırma Sistemleri</h4>
+                    <p className={styles.cardBodyDescription}>
+                      Kapalı alanlarda temiz hava sirkülasyonunu sağlamak için farklı havalandırma çözümleri sunuyoruz. Yerinde ücretsiz keşif ile en uygun sistemi belirliyor, projelendirme, montaj ve bakım hizmetlerini eksiksiz şekilde gerçekleştiriyoruz.
                     </p>
                   </div>
                 </div>
@@ -68,12 +62,9 @@ export default function Home() {
                   <FaThermometerEmpty />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4>Isıtma Sistemleri</h4>
-                    <p>
-                      Okullar, konutlar, iş yerleri, fabrikalar için farklı
-                      ısıtma sistemleri seçenekleriyle müşterilerimiz için en
-                      etkin ısıtma sistemlerinin kurulumu, bakım-onarım
-                      işlemlerini gerçekleştiriyoruz.
+                    <h4 className={styles.cardBodyTitle}>Isıtma Sistemleri</h4>
+                    <p className={styles.cardBodyDescription}>
+                      Konut, iş yeri, okul ve fabrikalar için özel ısıtma çözümleri sunuyoruz. İhtiyaca uygun sistemlerin kurulumunu yaparak uzun ömürlü ve verimli kullanım için bakım-onarım desteği sağlıyoruz.
                     </p>
                   </div>
                 </div>
@@ -82,11 +73,9 @@ export default function Home() {
                   <TbAirConditioning />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4>Soğutma Sistemleri</h4>
-                    <p>
-                      Üretim tesisleri, depolama alanları, oteller için gerekli
-                      olan soğutma sistemleri projelendirme süreçlerini
-                      yönetiyor, kurulum, bakım-onarım hizmetleri sunuyoruz.
+                    <h4 className={styles.cardBodyTitle}>Soğutma Sistemleri</h4>
+                    <p className={styles.cardBodyDescription}>
+                      Üretim tesisleri, depolar ve oteller gibi alanlarda ideal sıcaklık koşullarını sağlamak için gelişmiş soğutma sistemleri kuruyoruz. Projelendirme sürecinden montaj ve periyodik bakıma kadar kapsamlı hizmet sunuyoruz.
                     </p>
                   </div>
                 </div>
@@ -95,11 +84,9 @@ export default function Home() {
                   <FaFireExtinguisher />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4>Yangın Söndürme Sistemleri</h4>
-                    <p>
-                      Kapalı alanlar için kurulumu zorunlu hale getirilen yangın
-                      söndürme sistemleri seçenekleriyle ilgili müşterilerimize
-                      projelendirme, bakım-onarım hizmetleri sunuyoruz.
+                    <h4 className={styles.cardBodyTitle}>Yangın Söndürme Sistemleri</h4>
+                    <p className={styles.cardBodyDescription}>
+                      Güvenliğinizi en üst seviyeye taşımak için zorunlu yangın söndürme sistemlerini projelendiriyor, kurulumunu gerçekleştiriyor ve düzenli bakım hizmeti sunuyoruz.
                     </p>
                   </div>
                 </div>
@@ -108,11 +95,9 @@ export default function Home() {
                   <MdPlumbing />
                   </div>
                   <div className={styles.cardBody}>
-                    <h4>Sıhhi Tesisat</h4>
-                    <p>
-                      Mekanlar için gerekli olan sıhhi tesisat için yerinde
-                      ücretsiz keşif hizmeti veriyor ve projelendirme
-                      süreçlerini yönetiyoruz.
+                    <h4 className={styles.cardBodyTitle}>Sıhhi Tesisat</h4>
+                    <p className={styles.cardBodyDescription}>
+                      Yaşam ve çalışma alanlarınız için sıhhi tesisat sistemlerini en verimli şekilde tasarlıyoruz. Ücretsiz keşif hizmetimizle ihtiyacınızı belirleyerek, uzun ömürlü ve güvenilir çözümler sunuyoruz.
                     </p>
                   </div>
                 </div>
