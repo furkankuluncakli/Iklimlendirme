@@ -25,7 +25,7 @@
 
 .bodyTitle {
   margin-bottom: 1rem;
-  color: #4ca7e8;
+  color: var(--light-blue);
 }
 
 .mission,
@@ -38,7 +38,7 @@
 
 .mission h2 {
   font-size: 22px;
-  color: #4ca7e8;
+  color: var(--light-blue);
   margin-bottom: 10px;
 }
 
@@ -49,7 +49,7 @@
 
 .vision h2 {
   font-size: 22px;
-  color: #4ca7e8;
+  color: var(--light-blue);
   margin-bottom: 10px;
 }
 
@@ -61,14 +61,14 @@
 .principles h1 {
   text-align: center;
   font-size: 2rem;
-  color: #4ca7e8;
+  color: var(--light-blue);
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 .principles h2 {
   font-size: 20px;
-  color: #4ca7e8;
+  color: var(--light-blue);
   margin-bottom: 8px;
 }
 

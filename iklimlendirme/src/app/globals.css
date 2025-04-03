@@ -10,3 +10,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+:root {
+  --primary-blue: #004e89; 
+  --light-blue: #4ca7e8;
+  --light-gray: #f4f4f4;
+}
