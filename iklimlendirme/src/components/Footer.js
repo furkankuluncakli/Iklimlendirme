@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <div className={styles.aboutUsText}>
               <p>
-                BNR İklimlendirme, 2025 yılında kurulmuş olup, hastane, alışveriş merkezi, otel, konut, ofis ve restoran gibi yapılarda ısıtma, soğutma, havalandırma, taze hava, izolasyon, galvaniz sac, konfor, yangın ve sıhhi tesisat gibi mekanik tesisat alanlarında proje, taahhüt ve danışmanlık hizmetleri sunmaktadır.
+                BNR Havalandırma, 2025 yılında kurulmuş olup, hastane, alışveriş merkezi, otel, konut, ofis ve restoran gibi yapılarda ısıtma, soğutma, havalandırma, taze hava, izolasyon, galvaniz sac, konfor, yangın ve sıhhi tesisat gibi mekanik tesisat alanlarında proje, taahhüt ve danışmanlık hizmetleri sunmaktadır.
               </p>
             </div>
             <div className={styles.footerMenu}>
@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.footerBottomText}>
-              <p>Tüm Hakları Saklıdır &copy; 2025 BNR İklimlendirme</p>
+              <p>Tüm Hakları Saklıdır &copy; {new Date().getFullYear()} BNR Havalandırma</p>
             </div>
           </div>
         </footer>

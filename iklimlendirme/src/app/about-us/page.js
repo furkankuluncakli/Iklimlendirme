@@ -1,34 +1,41 @@
 import React from "react";
-import styles from "./page.module.css"
+import styles from "./page.module.css";
 
 const page = () => {
   return (
     <>
-      
       <div className={styles.bodyContainer}>
         <div className={styles.container}>
           <div className={styles.left}>
             <article>
-              <h2 className={styles.bodyTitle}>Bener İklimlendirme Proje Yönetimi</h2>
+              <h2 className={styles.bodyTitle}>
+                BNR Havalandırma Proje Yönetimi
+              </h2>
               <p className={styles.description}>
-                SALT Mühendislik; Hastane, alışveriş merkezi, otel, konut, ofis,
-                restoran vb. yapılarda ısıtma tesisatı, soğutma tesisatı,
-                havalandırma tesisatı, yangın tesisatı ve sıhhi tesisat gibi
-                mekanik tesisat alanlarında proje, taahhüt ve danışmanlık
-                hizmetleri vermek amacı ile 2017 yılında İstanbul’da
-                kurulmuştur.
+                BNR Havalandırma, 2025 yılında kurulmuş olup, hastane, alışveriş
+                merkezi, otel, konut, ofis ve restoran gibi yapılarda; ısıtma,
+                soğutma, havalandırma, taze hava, izolasyon, galvaniz sac
+                uygulamaları, konfor iklimlendirme, yangın tesisatı ve sıhhi
+                tesisat başta olmak üzere, mekanik tesisat alanlarında proje,
+                taahhüt ve danışmanlık hizmetleri sunmaktadır. Kurulduğu günden
+                bu yana sektördeki teknolojik gelişmeleri yakından takip eden
+                BNR Havalandırma, müşteri memnuniyetini esas alan yaklaşımıyla,
+                sürdürülebilir ve yüksek verimli çözümler üretmeyi
+                hedeflemektedir.
               </p>
               <p className={styles.description}>
-                Amacımız müşteri memnuniyeti ve kalite anlayışımızdan ödün
-                vermeden, alanımızdaki gelişme ve yenilikleri yakından takip
-                ederek sektördeki saygın, güvenilir firmalar arasında yer
-                almaktır.
+                Amacımız, müşteri memnuniyetini temel ilke edinerek, kalite
+                standartlarımızdan ödün vermeden; sektörümüzdeki yenilikleri ve
+                teknolojik gelişmeleri yakından takip etmek suretiyle,
+                güvenilirliği ve saygınlığı ile öne çıkan lider firmalar
+                arasında yer almaktır.
               </p>
               <p className={styles.description}>
-                Genç, dinamik kadromuz ile birlikte, şahsi tecrübe ve
-                referanslarımız, farklı bakış açılarımız, kurumsal altyapımız ve
-                gelişime açık amatör ruhumuz ile müşteri memnuniyetini ön planda
-                tutarak kaliteli hizmet vermek ticari ilkemizdir.
+                Genç ve dinamik kadromuzun enerjisini, bireysel tecrübelerimiz,
+                güçlü referanslarımız, farklı bakış açılarımız ve kurumsal
+                altyapımızla birleştirerek; gelişime açık yapımızla müşteri
+                memnuniyetini öncelik haline getiriyor, kaliteden ödün vermeyen
+                hizmet anlayışımızı temel ticari ilkemiz olarak benimsiyoruz.
               </p>
             </article>
           </div>
@@ -40,39 +47,41 @@ const page = () => {
           <section className={styles.mission}>
             <h2>Misyonumuz</h2>
             <p>
-              Firmamız rekabette gerçek başarıyı sağlamak amacıyla; kurumsal
-              kültüründen ödün vermeden güvenilir ve uzman kadrosunu kullanarak;
-              maliyette en uygun, hizmette en kaliteli ve teslimatta en hızlı
-              olarak sürekli gelişmeyi hedeflemektedir.
+              Mekanik tesisat alanında; hastane, alışveriş merkezi, otel, konut,
+              ofis ve benzeri yapılarda, yenilikçi çözümler, yüksek kalite
+              standartları ve müşteri odaklı hizmet anlayışı ile proje, taahhüt
+              ve danışmanlık hizmetleri sunmak; sektörde güvenilir,
+              sürdürülebilir ve etkin bir iş ortağı olarak yer almaktır.
             </p>
           </section>
 
           <section className={styles.vision}>
             <h2>Vizyonumuz</h2>
             <p>
-              Firmamız rekabette gerçek başarıyı sağlamak amacıyla; kurumsal
-              kültüründen ödün vermeden güvenilir ve uzman kadrosunu kullanarak;
-              maliyette en uygun, hizmette en kaliteli ve teslimatta en hızlı
-              olarak sürekli gelişmeyi hedeflemektedir.
+              Kurumsal değerlerimizden ödün vermeden, uzman kadromuz ve
+              yenilikçi yaklaşımımızla; sektörde maliyet açısından verimli,
+              hizmette kaliteli ve zamanında teslimat odaklı çözümler sunarak,
+              müşteri memnuniyetinde öncü ve tercih edilen bir marka olmaktır.
             </p>
           </section>
 
           <section className={styles.principles}>
             <h1>İLKELERİMİZ</h1>
-            <h2>Dürüstlük, Güvenilirlik, Sorumluluk</h2>
+            <h2>Dürüstlük • Güvenilirlik • Sorumluluk</h2>
             <p>
-              Faaliyet gösterdiğimiz tüm alanlarda, ikili ve şirket
-              ilişkilerinde, etik kurallara bağlı kalmak; dürüst ve güvenilir
-              davranarak verilen sözleri tutmak, tutarlılık, erdemli olmak, öncü
-              ve örnek olmak.
+              Tüm faaliyet alanlarımızda ve iş ilişkilerimizde etik ilkelere
+              bağlı kalmayı, dürüstlükten taviz vermemeyi, verdiğimiz sözleri
+              yerine getirerek güvenilirliğimizi korumayı ve topluma örnek
+              olmayı temel ilke olarak benimsemekteyiz.
             </p>
 
-            <h2>Yenilikçilik, Yaratıcılık ve Değişime Açıklık</h2>
+            <h2>Yenilikçilik • Yaratıcılık • Değişime Açıklık</h2>
             <p>
-              Sektördeki ve teknolojideki değişiklikleri/gelişmeleri takip
-              ederek; sürekli öğrenme, yenilikçilik ve iyileştirme merkezli,
-              yaratıcılık becerilerinin geliştirilmesini desteklemek, bizim ve
-              çalışma arkadaşlarımızın sürekli ilerlemesini sağlamak.
+              Sektörel ve teknolojik gelişmeleri yakından takip ederek; sürekli
+              öğrenmeyi, yenilikçi düşünceyi ve yaratıcı çözümleri teşvik
+              ediyoruz. Bu yaklaşım, hem kurumsal gelişimimizi hem de ekip
+              arkadaşlarımızın bireysel ilerlemesini destekleyen temel bir
+              değerimizdir.
             </p>
           </section>
         </div>

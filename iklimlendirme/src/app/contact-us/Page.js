@@ -36,8 +36,8 @@ const ContactUsPage = () => {
           </div>
           <div className={styles.contactMail}>
           <BsEnvelope className={styles.contactIcon}/>
-          <a href="mailto:bnriklimlendirme@gmail.com" className={styles.contactLink}>
-            <span className={styles.contactText}> bnriklimlendirme@gmail.com </span></a>
+          <a href="mailto:bnrhavalandirma@gmail.com" className={styles.contactLink}>
+            <span className={styles.contactText}> bnrhavalandirma@gmail.com </span></a>
           </div>
           <div className={styles.contactPhone}>
           <BsTelephone className={styles.contactIcon}/>                  

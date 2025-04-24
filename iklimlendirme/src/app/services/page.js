@@ -14,7 +14,7 @@ const Service = () => {
             <div className={styles.text}>
               <article>
                 <h2 className={styles.bodyTitle}>
-                  Bener İklimlendirme Proje Yönetimi
+                  Bener Havalandırma Proje Yönetimi
                 </h2>
                 <p className={styles.description}>
                   <strong>

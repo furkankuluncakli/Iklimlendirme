@@ -11,9 +11,9 @@ export default function Home() {
       <main className={styles.bodyContainer}>
         <section className={styles.sectionOne}>
           <div className={styles.imgContainer}>
-            <img src="img/mainPage1.jpg" alt="BNR İklimlendirme Sistemleri" />
+            <img src="img/mainPage1.jpg" alt="BNR Havalandırma Sistemleri" />
             <div className={styles.overlayText}>
-              <h2 className={styles.overlayTitle}>BNR İKLİMLENDİRME</h2>
+              <h2 className={styles.overlayTitle}>BNR HAVALANDIRMA</h2>
               <p className={styles.overlayDescription}>
                 Fabrikalarda, AVM’lerde ve konut projelerinde profesyonel
                 çözümler sunuyoruz.
@@ -188,8 +188,8 @@ export default function Home() {
                 </div>
                 <div className={styles.contactMail}>
                   <BsEnvelope className={styles.contactIcon}/>
-                  <a href="mailto:bnriklimlendirme@gmail.com" className={styles.contactLink}>
-                    <span className={styles.contactText}> bnriklimlendirme@gmail.com </span>
+                  <a href="mailto:bnrhavalandirma@gmail.com" className={styles.contactLink}>
+                    <span className={styles.contactText}> bnrhavalandirma@gmail.com </span>
                   </a>
                 </div>
                 <div className={styles.contactPhone}>
