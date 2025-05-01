@@ -42,7 +42,9 @@ const Navbar = (props) => {
               <a href="#">Referanslarımız</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="/blog" className={route == "/blog" ? styles.active : null}>
+                Blog
+              </a>
             </li>
             <li>
               <a href="/contact-us">İletişim</a>

@@ -1,9 +1,0 @@
-import React from 'react'
-
-function yuregirIklimlendirme() {
-  return (
-    <div>yuregirIklimlendirme</div>
-  )
-}
-
-export default yuregirIklimlendirme
