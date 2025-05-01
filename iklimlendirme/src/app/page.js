@@ -1,9 +1,11 @@
+'use client'
 import styles from "./page.module.css";
 import { FaFan, FaFireExtinguisher, FaThermometerEmpty } from "react-icons/fa";
 import { LuAirVent } from "react-icons/lu";
 import { TbAirConditioning } from "react-icons/tb";
 import { MdPlumbing } from "react-icons/md";
 import { BsEnvelope, BsGeoAlt, BsTelephone } from "react-icons/bs";
+import StatisticsSection from "@/components/StatisticsSection";
 
 export default function Home() {
   return (
@@ -24,8 +26,14 @@ export default function Home() {
               </p>
               <div className={styles.overlayActions}>
                 <a href="/contact-us" className={styles.overlayButton}>
-                  İLETİŞİM
+                  Ücretsiz İletişim İçin Arayın
                 </a>
+                <a href="/projects" className={styles.overlayButton}>
+                  Hizmetlerimizi İnceleyin
+                </a>
+              </div>
+              <div>
+                <StatisticsSection/>
               </div>
             </div>
           </div>
@@ -183,17 +191,25 @@ export default function Home() {
                   <strong>İletişim Bilgileri</strong>
                 </h3>
                 <div className={styles.contactAdress}>
-                  <BsGeoAlt className={styles.contactIcon}/>
-                  <p className={styles.contactText}>Levent Mahallesi 1830 Sokak No:47 Yüreğir/Adana</p>
+                  <BsGeoAlt className={styles.contactIcon} />
+                  <p className={styles.contactText}>
+                    Levent Mahallesi 1830 Sokak No:47 Yüreğir/Adana
+                  </p>
                 </div>
                 <div className={styles.contactMail}>
-                  <BsEnvelope className={styles.contactIcon}/>
-                  <a href="mailto:bnrhavalandirma@gmail.com" className={styles.contactLink}>
-                    <span className={styles.contactText}> bnrhavalandirma@gmail.com </span>
+                  <BsEnvelope className={styles.contactIcon} />
+                  <a
+                    href="mailto:bnrhavalandirma@gmail.com"
+                    className={styles.contactLink}
+                  >
+                    <span className={styles.contactText}>
+                      {" "}
+                      bnrhavalandirma@gmail.com{" "}
+                    </span>
                   </a>
                 </div>
                 <div className={styles.contactPhone}>
-                  <BsTelephone className={styles.contactIcon}/>                  
+                  <BsTelephone className={styles.contactIcon} />
                   <a href="tel:+905446653943" className={styles.contactLink}>
                     <span className={styles.contactText}> 0544 665 39 43 </span>
                   </a>
