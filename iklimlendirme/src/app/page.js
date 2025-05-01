@@ -146,43 +146,6 @@ export default function Home() {
           <div className={styles.sectionContainer}>
             <h2>REFERANSLARIMIZ</h2>
             <References/>
-            {/* <div className={styles.refContainer}>
-              <div className={styles.refCards}>
-                <div className={styles.refCard}>
-                  <img src="img/logo.jpg" alt="" />
-                </div>
-              </div>
-              <div className={styles.refCards}>
-                <div className={styles.refCard}>
-                  <img src="img/logo.jpg" alt="" />
-                </div>
-              </div>
-              <div className={styles.refCards}>
-                <div className={styles.refCard}>
-                  <img src="img/logo.jpg" alt="" />
-                </div>
-              </div>
-              <div className={styles.refCards}>
-                <div className={styles.refCard}>
-                  <img src="img/logo.jpg" alt="" />
-                </div>
-              </div>
-              <div className={styles.refCards}>
-                <div className={styles.refCard}>
-                  <img src="img/logo.jpg" alt="" />
-                </div>
-              </div>
-              <div className={styles.refCards}>
-                <div className={styles.refCard}>
-                  <img src="img/logo.jpg" alt="" />
-                </div>
-              </div>
-              <div className={styles.refCards}>
-                <div className={styles.refCard}>
-                  <img src="img/logo.jpg" alt="" />
-                </div>
-              </div>
-            </div> */}
           </div>
         </section>
 
