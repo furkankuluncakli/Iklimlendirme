@@ -93,13 +93,8 @@
 
 .cardLink:hover {
   background-color: #2563eb;
-  transform: translateY(-2px);
 }
 
 .cardLink:hover .arrowIcon {
   transform: translateX(4px);
-}
-
-.cardLink:hover .cardLinkText {
-  transform: scale(1.05);
 }

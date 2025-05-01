@@ -3,11 +3,13 @@ import styles from "./blog.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+
+
 const Blog = () => {
   const blogPosts = [
     {
       title: "Yüreğir İklimlendirme",
-      link: "/blog/yuregirIklimlendirme",
+      link: "/blog/Yuregir/page.js",
       img: "/img/logo.jpg",
       alt: "Yüreğir İklimlendirme",
       description: "Yüreğir bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
