@@ -6,6 +6,7 @@ import { TbAirConditioning } from "react-icons/tb";
 import { MdPlumbing } from "react-icons/md";
 import { BsEnvelope, BsGeoAlt, BsTelephone } from "react-icons/bs";
 import StatisticsSection from "@/components/StatisticsSection";
+import References from "@/components/References";
 
 export default function Home() {
   return (
@@ -144,7 +145,8 @@ export default function Home() {
         <section className={styles.sectionThird}>
           <div className={styles.sectionContainer}>
             <h2>REFERANSLARIMIZ</h2>
-            <div className={styles.refContainer}>
+            <References/>
+            {/* <div className={styles.refContainer}>
               <div className={styles.refCards}>
                 <div className={styles.refCard}>
                   <img src="img/logo.jpg" alt="" />
@@ -180,7 +182,7 @@ export default function Home() {
                   <img src="img/logo.jpg" alt="" />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
