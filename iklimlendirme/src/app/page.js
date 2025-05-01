@@ -16,14 +16,16 @@ export default function Home() {
             <img src="img/mainPage1.jpg" alt="BNR Havalandırma Sistemleri" />
             <div className={styles.overlayText}>
               <h2 className={styles.overlayTitle}>BNR HAVALANDIRMA</h2>
-              <p className={styles.overlayDescription}>
+              <div className={styles.overlayDescription}>
+              <p >
                 Fabrikalarda, AVM’lerde ve konut projelerinde profesyonel
                 çözümler sunuyoruz.
               </p>
-              <p className={styles.overlayDescription}>
+              <p>
                 Daha düşük enerji tüketimi ve yüksek verimlilik sağlayan
                 sistemler.
               </p>
+              </div>
               <div className={styles.overlayActions}>
                 <a href="/contact-us" className={styles.overlayButton}>
                   Ücretsiz İletişim İçin Arayın
