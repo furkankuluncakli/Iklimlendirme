@@ -1,39 +1,57 @@
 import React, { useRef, useState } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules"; // Import Autoplay module
 import Image from "next/image";
 
-export default function References() {
-return (
+export default function App() {
+  return (
     <>
-        <Swiper
-            spaceBetween={30}
-            centeredSlides={true}
-            autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-            }}
-            pagination={{
-                clickable: true,
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
-        >
-            <SwiperSlide>
-                <Image src="/img/logo.jpg" alt="Photo 1" width={500} height={300} />
-            </SwiperSlide>
-            <SwiperSlide>
-                <Image src="/img/logo.jpg" alt="Photo 2" width={500} height={300} />
-            </SwiperSlide>
-            <SwiperSlide>
-                <Image src="/img/logo.jpg" alt="Photo 3" width={500} height={300} />
-            </SwiperSlide>
-        </Swiper>
+      <Swiper
+        slidesPerView={4}
+        centeredSlides={true}
+        spaceBetween={30}
+        grabCursor={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination, Autoplay]} // Add Autoplay module here
+        className="mySwiper"
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+      >
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} alt="logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={`/img/logo.jpg`} width={250} height={250} />
+        </SwiperSlide>
+      </Swiper>
     </>
-);
+  );
 }
