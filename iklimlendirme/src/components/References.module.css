@@ -1,0 +1,36 @@
+.slider {
+  width: 100%;
+  max-width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px; 
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.sliderSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
