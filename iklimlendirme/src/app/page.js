@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import styles from "./page.module.css";
 import { FaFan, FaFireExtinguisher, FaThermometerEmpty } from "react-icons/fa";
 import { LuAirVent } from "react-icons/lu";
@@ -18,14 +18,14 @@ export default function Home() {
             <div className={styles.overlayText}>
               <h2 className={styles.overlayTitle}>BNR HAVALANDIRMA</h2>
               <div className={styles.overlayDescription}>
-              <p >
-                Fabrikalarda, AVM’lerde ve konut projelerinde profesyonel
-                çözümler sunuyoruz.
-              </p>
-              <p>
-                Daha düşük enerji tüketimi ve yüksek verimlilik sağlayan
-                sistemler.
-              </p>
+                <p>
+                  Fabrikalarda, AVM’lerde ve konut projelerinde profesyonel
+                  çözümler sunuyoruz.
+                </p>
+                <p>
+                  Daha düşük enerji tüketimi ve yüksek verimlilik sağlayan
+                  sistemler.
+                </p>
               </div>
               <div className={styles.overlayActions}>
                 <a href="/contact-us" className={styles.overlayButton}>
@@ -36,7 +36,7 @@ export default function Home() {
                 </a>
               </div>
               <div>
-                <StatisticsSection/>
+                <StatisticsSection />
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function Home() {
         <section className={styles.sectionThird} id="references">
           <div className={styles.sectionContainer}>
             <h2>REFERANSLARIMIZ</h2>
-            <References/>
+            <References />
           </div>
         </section>
 
@@ -185,7 +185,7 @@ export default function Home() {
 
               <div className={styles.contactMap}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.629345516051!2d35.37539407627602!3d36.98157465745371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15288fe843998199%3A0xb4d3bdb463cc7397!2sLevent%2C%201830.%20Sk.%20No%3A47%2C%2001316%20Y%C3%BCre%C4%9Fir%2FAdana!5e1!3m2!1str!2str!4v1743694069991!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.1813183970507!2d35.37536487627607!3d36.98160495745212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15288f007bd135b9%3A0xc176fa9b07fb1def!2sBnr%20Havaland%C4%B1rma!5e0!3m2!1str!2str!4v1746559567997!5m2!1str!2str"
                   width="600"
                   height="450"
                   style={{ border: 0 }}
