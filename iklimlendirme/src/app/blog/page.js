@@ -9,14 +9,14 @@ const Blog = () => {
   const blogPosts = [
     {
       title: "Yüreğir İklimlendirme",
-      link: "/blog/Yuregir/page.js",
+      link: "/blog/yuregir",
       img: "/img/logo.jpg",
       alt: "Yüreğir İklimlendirme",
       description: "Yüreğir bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Adana İklimlendirme",
-      link: "/blog/adanaIklimlendirme",
+      link: "/blog/adana",
       img: "/img/main.jpg",
       alt: "Adana İklimlendirme",
       description: "Adana'da iklimlendirme sistemleri ve hizmetleri hakkında bilgi alın.",

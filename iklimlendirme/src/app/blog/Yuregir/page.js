@@ -6,4 +6,4 @@ function YuregirIklimlendirme() {
   )
 }
 
-export default yuregirIklimlendirme
+export default YuregirIklimlendirme
