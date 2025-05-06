@@ -3,100 +3,134 @@ import styles from "./blog.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-
-
 const Blog = () => {
   const blogPosts = [
-    {
-      title: "Yüreğir İklimlendirme",
-      link: "/blog/yuregir",
-      img: "/img/logo.jpg",
-      alt: "Yüreğir İklimlendirme",
-      description: "Yüreğir bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
-    },
     {
       title: "Adana İklimlendirme",
       link: "/blog/adana",
       img: "/img/main.jpg",
       alt: "Adana İklimlendirme",
-      description: "Adana'da iklimlendirme sistemleri ve hizmetleri hakkında bilgi alın.",
+      description:
+        "Adana'da iklimlendirme sistemleri ve hizmetleri hakkında bilgi alın.",
+    },
+    {
+      title: "Yüreğir İklimlendirme",
+      link: "/blog/yuregir",
+      img: "/img/logo.jpg",
+      alt: "Yüreğir İklimlendirme",
+      description:
+        "Yüreğir bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Sarıçam Havalandırma",
-      link: "/blog/saricamHavalandirma",
+      link: "/blog/saricam",
       img: "/img/main.jpg",
       alt: "Sarıçam Havalandırma",
       description: "Sarıçam bölgesinde havalandırma sistemleri ve çözümleri.",
     },
     {
       title: "Seyhan İklimlendirme",
-      link: "/blog/seyhanIkilimlendirme",
+      link: "/blog/seyhan",
       img: "/img/main.jpg",
       alt: "Seyhan İklimlendirme",
-      description: "Seyhan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+      description:
+        "Seyhan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Çukurova İklimlendirme",
-      link: "/blog/cukurovaIkilimlendirme",
+      link: "/blog/cukurova",
       img: "/img/main.jpg",
       alt: "Çukurova İklimlendirme",
-      description: "Çukurova bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
-    },
-    {
-      title: "İklimlendirme Sistemleri",
-      link: "/blog/iklimlendirmeSistemleri",
-      img: "/img/main.jpg",
-      alt: "İklimlendirme Sistemleri",
-      description: "İklimlendirme sistemleri ve çözümleri hakkında bilgi alın.",
-    },
-    {
-      title: "Adıyaman İklimlendirme",
-      link: "/blog/adiyamanIkilimlendirme",
-      img: "/img/main.jpg",
-      alt: "Adıyaman İklimlendirme",
-      description: "Adıyaman bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
-    },
-    {
-      title: "İskenderun İklimlendirme",
-      link: "/blog/iskenderunIkilimlendirme",
-      img: "/img/main.jpg",
-      alt: "İskenderun İklimlendirme",
-      description: "İskenderun bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
-    },
-    {
-      title: "Hatay İklimlendirme",
-      link: "/blog/hatayIkilimlendirme",
-      img: "/img/main.jpg",
-      alt: "Hatay İklimlendirme",
-      description: "Hatay bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+      description:
+        "Çukurova bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Kozan İklimlendirme",
-      link: "/blog/kozanIkilimlendirme",
+      link: "/blog/kozan",
       img: "/img/main.jpg",
       alt: "Kozan İklimlendirme",
-      description: "Kozan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+      description:
+        "Kozan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Ceyhan İklimlendirme",
-      link: "/blog/ceyhanIkilimlendirme",
+      link: "/blog/ceyhan",
       img: "/img/main.jpg",
       alt: "Ceyhan İklimlendirme",
-      description: "Ceyhan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+      description:
+        "Ceyhan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
+      title: "Aladağ İklimlendirme",
+      link: "/blog/aladag",
+      img: "/img/main.jpg",
+      alt: "Aladağ İklimlendirme",
+      description:
+        "Aladağ bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
+      title: "Karaisalı İklimlendirme",
+      link: "/blog/karaisali",
+      img: "/img/main.jpg",
+      alt: "Karaisalı İklimlendirme",
+      description:
+        "Karaisalı bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
+      title: "Feke İklimlendirme",
+      link: "/blog/feke",
+      img: "/img/main.jpg",
+      alt: "Fekeİklimlendirme",
+      description:
+        "Feke bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
+      title: "Pozantı İklimlendirme",
+      link: "/blog/pozanti",
+      img: "/img/main.jpg",
+      alt: "Pozantı İklimlendirme",
+      description:
+        "Pozantı bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
+      title: "Adıyaman İklimlendirme",
+      link: "/blog/adiyaman",
+      img: "/img/main.jpg",
+      alt: "Adıyaman İklimlendirme",
+      description:
+        "Adıyaman bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
+      title: "İskenderun İklimlendirme",
+      link: "/blog/iskenderun",
+      img: "/img/main.jpg",
+      alt: "İskenderun İklimlendirme",
+      description:
+        "İskenderun bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
+      title: "Hatay İklimlendirme",
+      link: "/blog/hatay",
+      img: "/img/main.jpg",
+      alt: "Hatay İklimlendirme",
+      description:
+        "Hatay bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Tarsus İklimlendirme",
-      link: "/blog/tarsusIkilimlendirme",
+      link: "/blog/tarsus",
       img: "/img/main.jpg",
       alt: "Tarsus İklimlendirme",
-      description: "Tarsus bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+      description:
+        "Tarsus bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Mersin İklimlendirme",
-      link: "/blog/mersinIkilimlendirme",
+      link: "/blog/mersin",
       img: "/img/main.jpg",
       alt: "Mersin İklimlendirme",
-      description: "Mersin bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+      description:
+        "Mersin bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
   ];
 

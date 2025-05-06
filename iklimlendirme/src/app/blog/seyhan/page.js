@@ -4,20 +4,20 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Yüreğir İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title: "Seyhan İklimlendirme | Klima Montaj & Bakım | Adana Klima",
   description:
-    "Yüreğir'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Seyhan'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
   keywords:
-    "Yüreğir İklimlendirme, Adana Klima, Yüreğir Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Yüreğir, Adana Soğutma Sistemleri",
+    "Seyhan İklimlendirme, Adana Klima, Seyhan Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Seyhan, Adana Soğutma Sistemleri",
 };
 
-function YuregirIklimlendirme() {
+function SeyhanIklimlendirme() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <Image
           src={"/img/logo.jpg"}
-          alt={"Yüreğir İklimlendirme Logo"}
+          alt={"Seyhan İklimlendirme Logo"}
           width={300}
           height={200}
           className={styles.image}
@@ -26,16 +26,16 @@ function YuregirIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Yüreğir İklimlendirme | Uzman Klima Hizmetleri
+          Seyhan İklimlendirme | Uzman Klima Hizmetleri
         </h1>
 
         <p>
-          Adana'nın Yüreğir ilçesinde profesyonel iklimlendirme çözümleriyle
+          Adana'nın Seyhan ilçesinde profesyonel iklimlendirme çözümleriyle
           hizmetinizdeyiz. Klima montajı, bakım, onarım ve endüstriyel soğutma
           alanlarında tecrübeli ekibimizle güvenilir hizmet sunuyoruz.
         </p>
 
-        <h2>Yüreğir'de Sunduğumuz İklimlendirme Hizmetleri</h2>
+        <h2>Seyhan'da Sunduğumuz İklimlendirme Hizmetleri</h2>
         <ul className={styles.list}>
           <li>
             <strong>Klima Montajı:</strong> Ev, ofis ve iş yerlerine uygun
@@ -51,7 +51,7 @@ function YuregirIklimlendirme() {
           </li>
         </ul>
 
-        <h2>Neden Yüreğir'de Bizi Tercih Etmelisiniz?</h2>
+        <h2>Neden Seyhan'da Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
             <strong>15 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
@@ -62,7 +62,7 @@ function YuregirIklimlendirme() {
             güvenilir hizmet.
           </li>
           <li>
-            <strong>Ücretsiz Keşif:</strong> Yüreğir'in tüm mahallelerine
+            <strong>Ücretsiz Keşif:</strong> Seyhan'ın tüm mahallelerine
             ücretsiz keşif hizmeti.
           </li>
           <li>
@@ -70,7 +70,7 @@ function YuregirIklimlendirme() {
           </li>
         </ul>
 
-        <h2>Yüreğir İklimlendirme Fiyatları</h2>
+        <h2>Seyhan İklimlendirme Fiyatları</h2>
         <p>
           Fiyatlarımız hizmetin türüne, klima modeli ve alan büyüklüğüne göre
           değişmektedir. En doğru fiyat için ücretsiz keşif randevusu
@@ -79,7 +79,7 @@ function YuregirIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Yüreğir’de klima montajı, bakım ve onarım hizmetleri için bizimle
+          Seyhan’da klima montajı, bakım ve onarım hizmetleri için bizimle
           iletişime geçin.
         </p>
         <p>
@@ -92,4 +92,4 @@ function YuregirIklimlendirme() {
   );
 }
 
-export default YuregirIklimlendirme;
+export default SeyhanIklimlendirme;

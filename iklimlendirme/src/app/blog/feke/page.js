@@ -4,14 +4,14 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Adana İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
+  title: "Feke İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
   description:
-    "Adana'da klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 15 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
+    "Feke'de klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 15 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
   keywords:
-    "Adana İklimlendirme, Adana Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Adana Havalandırma, VRF Sistemleri",
+    "Feke İklimlendirme, Feke Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Feke Havalandırma, VRF Sistemleri",
 };
 
-function AdanaIklimlendirme() {
+function FekeIklimlendirme() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -23,15 +23,15 @@ function AdanaIklimlendirme() {
           className={styles.image}
         />
         <h1 className={styles.mainTitle}>
-          Adana İklimlendirme | Profesyonel Klima Çözümleri
+          Feke İklimlendirme | Profesyonel Klima Çözümleri
         </h1>
       </header>
 
       <article className={styles.article}>
         <section>
-          <h2>Adana'da Klima ve İklimlendirme Hizmetleri</h2>
+          <h2>Feke'de Klima ve İklimlendirme Hizmetleri</h2>
           <p>
-            BNR Havalandırma olarak Adana'da klima montajı, klima bakımı ve endüstriyel soğutma alanında profesyonel çözümler sunuyoruz. Her bütçeye uygun fiyatlarla, güvenilir ve kaliteli hizmet garantisi veriyoruz.
+            BNR Havalandırma olarak Feke'de klima montajı, klima bakımı ve endüstriyel soğutma alanında profesyonel çözümler sunuyoruz. Her bütçeye uygun fiyatlarla, güvenilir ve kaliteli hizmet garantisi veriyoruz.
           </p>
         </section>
 
@@ -54,7 +54,7 @@ function AdanaIklimlendirme() {
         </section>
 
         <section>
-          <h3>Adana Klima Montaj ve Bakım Fiyatları</h3>
+          <h3>Feke Klima Montaj ve Bakım Fiyatları</h3>
           <p>
             Fiyatlarımız hizmetin türüne, alanın büyüklüğüne ve tercih edilen marka/modele göre değişmektedir. Ücretsiz keşif hizmetimiz ile net fiyat teklifi alabilirsiniz.
           </p>
@@ -63,7 +63,7 @@ function AdanaIklimlendirme() {
         <section>
           <h3>İletişim ve Ücretsiz Keşif</h3>
           <p>
-            Adana'da iklimlendirme ve soğutma çözümleri için bizimle hemen iletişime geçin.
+            Feke'de iklimlendirme ve soğutma çözümleri için bizimle hemen iletişime geçin.
           </p>
           <p>
             <a href="tel:+905446653943" className={styles.contactLink}>
@@ -76,4 +76,4 @@ function AdanaIklimlendirme() {
   );
 }
 
-export default AdanaIklimlendirme;
+export default FekeIklimlendirme;
