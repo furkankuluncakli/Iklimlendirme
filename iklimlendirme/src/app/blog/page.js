@@ -93,6 +93,14 @@ const Blog = () => {
         "Pozantı bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
+      title: "Mersin İklimlendirme",
+      link: "/blog/mersin",
+      img: "/img/main.jpg",
+      alt: "Mersin İklimlendirme",
+      description:
+        "Mersin bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+    {
       title: "Adıyaman İklimlendirme",
       link: "/blog/adiyaman",
       img: "/img/main.jpg",
@@ -101,12 +109,12 @@ const Blog = () => {
         "Adıyaman bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
-      title: "İskenderun İklimlendirme",
-      link: "/blog/iskenderun",
+      title: "Osmaniye İklimlendirme",
+      link: "/blog/osmaniye",
       img: "/img/main.jpg",
-      alt: "İskenderun İklimlendirme",
+      alt: "Osmaniye İklimlendirme",
       description:
-        "İskenderun bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+        "Osmaniye bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
       title: "Hatay İklimlendirme",
@@ -117,20 +125,21 @@ const Blog = () => {
         "Hatay bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
+      title: "İskenderun İklimlendirme",
+      link: "/blog/iskenderun",
+      img: "/img/main.jpg",
+      alt: "İskenderun İklimlendirme",
+      description:
+        "İskenderun bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
+    },
+
+    {
       title: "Tarsus İklimlendirme",
       link: "/blog/tarsus",
       img: "/img/main.jpg",
       alt: "Tarsus İklimlendirme",
       description:
         "Tarsus bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
-    },
-    {
-      title: "Mersin İklimlendirme",
-      link: "/blog/mersin",
-      img: "/img/main.jpg",
-      alt: "Mersin İklimlendirme",
-      description:
-        "Mersin bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
   ];
 
