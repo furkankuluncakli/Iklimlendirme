@@ -20,6 +20,7 @@ function AdanaIklimlendirme() {
           alt="BNR Havalandırma Logo"
           width={300}
           height={200}
+          layout="fixed"
           className={styles.image}
         />
         <h1 className={styles.mainTitle}>

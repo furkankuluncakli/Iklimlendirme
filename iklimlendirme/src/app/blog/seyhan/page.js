@@ -20,6 +20,7 @@ function SeyhanIklimlendirme() {
           alt={"Seyhan İklimlendirme Logo"}
           width={300}
           height={200}
+          layout="fixed"
           className={styles.image}
         />
       </div>

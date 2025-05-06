@@ -142,7 +142,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.sectionThird}>
+        <section className={styles.sectionThird} id="references">
           <div className={styles.sectionContainer}>
             <h2>REFERANSLARIMIZ</h2>
             <References/>
