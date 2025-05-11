@@ -96,6 +96,10 @@
   gap: 15px;
 }
 
+.socialIcon {
+  margin-top: 0.8rem;
+}
+
 .socialIcon a {
   color: #fff;
   font-size: 20px;

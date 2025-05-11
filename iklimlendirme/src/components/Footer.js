@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./footer.module.css";
 import Link from "next/link";
+import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -44,38 +45,24 @@ const Footer = () => {
       <footer className={styles.footerBottom}>
         <div className={styles.footerBottomContainer}>
           <div className={styles.icons}>
-            <div className={styles.socialIcon}>
-              <a
-                href="https://www.instagram.com/bnrhavalandirma"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-instagram"></i>
-              </a>
-            </div>
-            <div className={styles.socialIcon}>
-              <a
-                href="https://twitter.com/bnrhavalandirma"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-twitter"></i>
-              </a>
-            </div>
-            <div className={styles.socialIcon}>
-              <a
-                href="https://facebook.com/bnrhavalandirma"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-facebook"></i>
-              </a>
-            </div>
+            <Link
+              href="https://www.instagram.com/bnrhavalandirma"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialIcon}
+            >
+              <BsInstagram style={{ color: "#fff" }} />
+            </Link>
+            <Link
+              href="https://wa.me/905446653943"
+              className={styles.socialIcon}
+            >
+              <BsWhatsapp style={{ color: "#fff" }} />
+            </Link>
           </div>
           <div className={styles.footerBottomText}>
             <p>
-              Tüm Hakları Saklıdır &copy; {new Date().getFullYear()} BNR
-              Havalandırma
+              Tüm Hakları Saklıdır &copy; {new Date().getFullYear()} BNR Havalandırma
             </p>
           </div>
         </div>
