@@ -3,24 +3,26 @@ import React, { useState } from "react";
 import styles from "./page.module.css";
 import { BsEnvelope, BsGeoAlt, BsTelephone } from "react-icons/bs";
 
-
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     phone: "",
-    mail: "",
+    email: "",
     message: "",
   });
 
   const handleChange = (event) => {
-    const { name, value } = event.target;
+    const { id, value } = event.target;
+    console.log(id, value);
+    console.log(event.target);
+
     setFormData((prevState) => ({
       ...prevState,
-      [name]: value,
+      [id]: value,
     }));
-    console.log(formData);
   };
+  const handleSubmit = () => {};
   return (
     <>
       <div className={styles.container}>
@@ -31,27 +33,37 @@ const ContactUsPage = () => {
             ulaşabilirsiniz. Ekibimiz en kısa sürede size dönüş yapacaktır.
           </p>
           <div className={styles.contactAdress}>
-            <BsGeoAlt className={styles.contactIcon}/>
-            <p className={styles.contactText}>Levent Mahallesi 1830 Sokak No:47 Yüreğir/Adana</p>
+            <BsGeoAlt className={styles.contactIcon} />
+            <p className={styles.contactText}>
+              Levent Mahallesi 1830 Sokak No:47 Yüreğir/Adana
+            </p>
           </div>
           <div className={styles.contactMail}>
-          <BsEnvelope className={styles.contactIcon}/>
-          <a href="mailto:bnrhavalandirma@gmail.com" className={styles.contactLink}>
-            <span className={styles.contactText}> bnrhavalandirma@gmail.com </span></a>
+            <BsEnvelope className={styles.contactIcon} />
+            <a
+              href="mailto:bnrhavalandirma@gmail.com"
+              className={styles.contactLink}
+            >
+              <span className={styles.contactText}>
+                {" "}
+                bnrhavalandirma@gmail.com{" "}
+              </span>
+            </a>
           </div>
           <div className={styles.contactPhone}>
-          <BsTelephone className={styles.contactIcon}/>                  
-          <a href="tel:+905446653943" className={styles.contactLink}>
-            <span className={styles.contactText}> 0544 665 39 43 </span>
-          </a>
+            <BsTelephone className={styles.contactIcon} />
+            <a href="tel:+905446653943" className={styles.contactLink}>
+              <span className={styles.contactText}> 0544 665 39 43 </span>
+            </a>
           </div>
         </div>
         <div className={styles.formContainer}>
-          <form>
+          <form action="https://getform.io/f/aolmvxqb" method="POST">
             <label htmlFor="firstName" className={styles.formLabel}>
               İsim
             </label>
             <input
+              name="firstName"
               onChange={handleChange}
               value={formData.firstName}
               type="text"
@@ -64,6 +76,7 @@ const ContactUsPage = () => {
               Soyisim
             </label>
             <input
+              name="lastName"
               onChange={handleChange}
               value={formData.lastName}
               type="text"
@@ -76,6 +89,7 @@ const ContactUsPage = () => {
               Email
             </label>
             <input
+              name="email"
               onChange={handleChange}
               value={formData.mail}
               type="email"
@@ -88,6 +102,7 @@ const ContactUsPage = () => {
               Telefon
             </label>
             <input
+              name="phone"
               onChange={handleChange}
               value={formData.phone}
               type="number"
@@ -100,6 +115,7 @@ const ContactUsPage = () => {
               Mesaj
             </label>
             <textarea
+              name="message"
               onChange={handleChange}
               value={formData.message}
               id="message"
