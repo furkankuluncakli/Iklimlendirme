@@ -2,6 +2,7 @@
 import React from "react";
 import styles from "./navbar.module.css";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const Navbar = (props) => {
   const route = usePathname();
@@ -19,32 +20,35 @@ const Navbar = (props) => {
           <ul className={styles.navMenu}>
             {route == "/" ? null : (
               <li>
-                <a href="/" className={route == "/" ? styles.active : null}>
+                <Link href="/" className={route == "/" ? styles.active : null}>
                   Anasayfa
-                </a>
+                </Link>
               </li>
             )}
             <li>
-              <a
+              <Link
                 href="/about-us"
                 className={route == "/about-us" ? styles.active : null}
               >
                 Hakkımızda
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/services">Hizmetlerimiz</a>
+              <Link href="/services">Hizmetlerimiz</Link>
             </li>
             <li>
               <a href="/projects">Projelerimiz</a>
             </li>
             <li>
-              <a href="/references">Referanslarımız</a>
+              <Link href="#references">Referanslarımız</Link>
             </li>
             <li>
-              <a href="/blog" className={route == "/blog" ? styles.active : null}>
+              <Link
+                href="/blog"
+                className={route == "/blog" ? styles.active : null}
+              >
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
               <a href="/contact-us">İletişim</a>
