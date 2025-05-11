@@ -1,7 +1,10 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import styles from "./blog.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Pagination from "@/components/Pagination";
+
 
 const Blog = () => {
   const blogPosts = [
@@ -143,11 +146,20 @@ const Blog = () => {
     },
   ];
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const postPerPage = 11;
+
+  const indexOfLastPost = currentPage * postPerPage;
+  const indexOfFirstPost = indexOfLastPost - postPerPage;
+  const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+  const totalPages = Math.ceil(blogPosts.length / postPerPage);
+
   return (
     <div className={styles.blogContainer}>
       <h1 className={styles.blogTitle}>Blog</h1>
       <div className={styles.cardContainer}>
-        {blogPosts.map((post, index) => (
+        {currentPosts.map((post, index) => (
           <div key={index} className={styles.card}>
             <Image
               src={post.img}
@@ -179,6 +191,10 @@ const Blog = () => {
           </div>
         ))}
       </div>
+      <Pagination
+      currentPage={currentPage}
+      totalPages={totalPages}
+      onPageChange={(page) => setCurrentPage(page)}/>
     </div>
   );
 };

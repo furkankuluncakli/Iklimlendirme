@@ -8,6 +8,7 @@ import { BsEnvelope, BsGeoAlt, BsTelephone } from "react-icons/bs";
 import StatisticsSection from "@/components/StatisticsSection";
 import References from "@/components/References";
 
+
 export default function Home() {
   return (
     <>
