@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 20px;
   max-width: 1200px;
@@ -9,11 +9,15 @@
 
 .contactText {
   width: 50%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 25px;
+
+  border-radius: 10px;
+  margin-right: 10px;
+  height: fit-content;
 }
 
 .contactTitle {
@@ -21,6 +25,7 @@
   padding: 10px;
   font-size: 2.3rem;
   color: #333;
+  margin-bottom: 10px;
 }
 
 .contactDescription {
@@ -30,6 +35,7 @@
   line-height: 1.5;
   letter-spacing: 1px;
   color: #333;
+  margin-bottom: 20px;
 }
 
 .contactAdress,
@@ -41,15 +47,14 @@
   white-space: nowrap;
 }
 
-.contactIcon{
+.contactIcon {
   margin-right: 10px;
   font-size: 1.7rem;
 }
 
-.contactText{
+.contactText {
   font-size: 1.2rem;
   color: #333;
-  
 }
 
 .contactLink {
@@ -70,7 +75,7 @@
   align-items: center;
 }
 
-.contactIcon{
+.contactIcon {
   margin-right: 10px;
   font-size: 1.7rem;
 }
@@ -81,11 +86,14 @@
 
 .formContainer {
   width: 50%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 25px;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: fit-content;
 }
 
 .formLabel {
@@ -99,7 +107,7 @@
   width: 100%;
   padding: 15px 5px;
   border-radius: 10px;
-  border: none;
+  border: 1px solid #ddd;
   margin-top: 10px;
 }
 
@@ -107,8 +115,10 @@
   width: 100%;
   padding: 15px 5px;
   border-radius: 10px;
-  border: none;
+  border: 1px solid #ddd;
   margin-top: 10px;
+  min-height: 150px;
+  resize: vertical;
 }
 
 .formBtn {
@@ -121,4 +131,130 @@
   color: #fff;
   font-size: 1.2rem;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formBtn:hover {
+  background-color: #444;
+}
+
+.contactMap {
+  flex: 1;
+  height: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.contactMap iframe {
+  border-radius: 10px;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .contactText,
+  .formContainer {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .contactTitle {
+    font-size: 1.8rem;
+    padding: 5px;
+  }
+
+  .contactDescription {
+    font-size: 1.1rem;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .contactAdress,
+  .contactMail,
+  .contactPhone {
+    white-space: normal;
+    gap: 10px;
+  }
+
+  .contactIcon {
+    font-size: 1.5rem;
+    min-width: 24px;
+  }
+
+  .contactText {
+    font-size: 1.1rem;
+  }
+
+  .formLabel {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+
+  .formInput,
+  .formTextarea {
+    padding: 12px 5px;
+    margin-top: 8px;
+  }
+
+  .formBtn {
+    padding: 12px 5px;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .contactText,
+  .formContainer {
+    padding: 12px;
+  }
+
+  .contactTitle {
+    font-size: 1.5rem;
+  }
+
+  .contactDescription {
+    font-size: 1rem;
+  }
+
+  .contactIcon {
+    font-size: 1.3rem;
+  }
+
+  .contactText {
+    font-size: 1rem;
+  }
+
+  .formLabel {
+    font-size: 1.1rem;
+    margin-top: 12px;
+  }
+
+  .formInput,
+  .formTextarea,
+  .formBtn {
+    padding: 10px 5px;
+    font-size: 1rem;
+  }
+
+  .contactMap {
+    height: 500px;
+  }
+
+  .contactMap iframe {
+    min-height: 500px;
+  }
 }

@@ -7,7 +7,7 @@ export const metadata = {
   title:
     "Feke İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
   description:
-    "Feke'de klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 15 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
+    "Feke'de klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 20 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
   keywords:
     "Feke İklimlendirme, Feke Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Feke Havalandırma, VRF Sistemleri",
 };

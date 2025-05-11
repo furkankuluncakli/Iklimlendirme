@@ -39,6 +39,9 @@
   background-color: transparent;
   box-shadow: none;
   text-align: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .overlayTitle {
@@ -46,7 +49,7 @@
   margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 800;
-  color: var(--darker-gold); 
+  color: var(--darker-gold);
 }
 
 .overlayDescription {
@@ -61,7 +64,7 @@
 }
 
 .overlayButton {
-  background-color: var(--primary-gold); 
+  background-color: var(--primary-gold);
   color: white;
   padding: 15px 20px;
   border-radius: 8px;
@@ -74,7 +77,7 @@
 }
 
 .overlayButton:hover {
-  background-color: var(--darker-gold); 
+  background-color: var(--darker-gold);
   transform: scale(1.05);
 }
 
@@ -146,7 +149,6 @@
 .icon {
   font-size: 50px;
   color: var(--darker-gold);
-  
 }
 
 .cardBody {
@@ -262,15 +264,17 @@
 }
 
 .contactMap {
-  flex: 1;
+  width: 100%;
   height: 400px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .contactMap iframe {
   border-radius: 10px;
   width: 100%;
   height: 100%;
+  min-height: 400px;
 }
 
 .sectionFourth {
@@ -285,4 +289,121 @@
   font-weight: bold;
   color: #eab308;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .overlayText {
+    width: 90%;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .overlayTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .overlayDescription {
+    font-size: 1.2rem;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .refContainer {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 10px;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactInfo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .contactMap {
+    width: 100%;
+    height: 500px;
+  }
+
+  .contactMap iframe {
+    min-height: 500px;
+  }
+
+  .sectionSecond {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .sectionThird {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .sectionFourth {
+    padding: 30px 15px;
+  }
+
+  .overlayActions {
+    gap: 1.5rem;
+  }
+
+  .overlayButton {
+    padding: 12px 16px;
+    font-size: 14px;
+    min-width: 130px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .overlayText {
+    width: 95%;
+    padding: 0.8rem;
+    gap: 1.2rem;
+  }
+
+  .overlayTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .overlayDescription {
+    font-size: 1rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .overlayActions {
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 0.5rem;
+  }
+
+  .overlayButton {
+    padding: 10px 15px;
+    font-size: 14px;
+    min-width: 120px;
+  }
+
+  .refContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .contactMap {
+    height: 400px;
+  }
+
+  .contactMap iframe {
+    min-height: 400px;
+  }
 }

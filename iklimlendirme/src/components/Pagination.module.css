@@ -7,8 +7,8 @@
 }
 
 .paginationButton {
-  background-color: #0070f3;
-  color: white;
+  background-color: var(--darker-gold);
+  color: #fff;
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;

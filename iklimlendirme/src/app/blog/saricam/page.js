@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "Sarıçam İklimlendirme | Klima Montaj & Bakım | Adana Klima",
   description:
-    "Sarıçam'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Uygun Fiyat ✓ Profesyonel Hizmet!",
+    "Sarıçam'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Uygun Fiyat ✓ Profesyonel Hizmet!",
   keywords:
     "Sarıçam İklimlendirme, Adana Klima, Sarıçam Klima Montajı, Klima Bakımı Sarıçam, Endüstriyel Soğutma Adana, Sarıçam Soğutma Sistemleri",
 };
@@ -30,7 +30,7 @@ function SaricamIklimlendirme() {
         </h1>
 
         <p>
-          Adana Sarıçam’da profesyonel iklimlendirme çözümleri sunuyoruz. Klima
+          Adana Sarıçam'da profesyonel iklimlendirme çözümleri sunuyoruz. Klima
           montajı, periyodik bakım, arıza onarımı ve endüstriyel soğutma
           sistemlerinde uzman ekibimizle yanınızdayız.
         </p>
@@ -51,10 +51,10 @@ function SaricamIklimlendirme() {
           </li>
         </ul>
 
-        <h2>Neden Sarıçam’da Bizi Tercih Etmelisiniz?</h2>
+        <h2>Neden Sarıçam'da Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
-            <strong>15 Yıllık Deneyim:</strong> Yüzlerce memnun müşteri.
+            <strong>20 Yıllık Deneyim:</strong> Yüzlerce memnun müşteri.
           </li>
           <li>
             <strong>Uzman Ekip:</strong> Alanında eğitimli ve deneyimli
@@ -64,7 +64,7 @@ function SaricamIklimlendirme() {
             <strong>Hızlı Hizmet:</strong> Aynı gün keşif ve servis imkânı.
           </li>
           <li>
-            <strong>Ücretsiz Keşif:</strong> Sarıçam’ın tüm mahallelerine özel.
+            <strong>Ücretsiz Keşif:</strong> Sarıçam'ın tüm mahallelerine özel.
           </li>
         </ul>
 
@@ -77,7 +77,7 @@ function SaricamIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Sarıçam’da klima montajı, bakım ve endüstriyel soğutma çözümleri için
+          Sarıçam'da klima montajı, bakım ve endüstriyel soğutma çözümleri için
           bizimle hemen iletişime geçin.
         </p>
         <p>

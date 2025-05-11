@@ -7,7 +7,7 @@ export const metadata = {
   title:
     "Pozantı İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
   description:
-    "Pozantı'da klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 15 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
+    "Pozantı'da klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 20 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
   keywords:
     "Pozantı İklimlendirme, Pozantı Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Pozantı Havalandırma, VRF Sistemleri",
 };

@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "Osmaniye İklimlendirme | Klima Montaj & Bakım | Osmaniye Klima",
   description:
-    "Osmaniye'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Osmaniye'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
   keywords:
     "Osmaniye İklimlendirme, Osmaniye Klima, Osmaniye Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Osmaniye, Osmaniye Soğutma Sistemleri",
 };
@@ -31,7 +31,7 @@ function OsmaniyeIklimlendirme() {
         </h1>
 
         <p>
-          Osmaniye’de profesyonel iklimlendirme çözümleriyle hizmetinizdeyiz.
+          Osmaniye'de profesyonel iklimlendirme çözümleriyle hizmetinizdeyiz.
           Klima montajı, bakım, onarım ve endüstriyel soğutma alanlarında
           tecrübeli ekibimizle güvenilir hizmet sunuyoruz.
         </p>
@@ -55,8 +55,8 @@ function OsmaniyeIklimlendirme() {
         <h2>Neden Osmaniye'de Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
-            <strong>15 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
-            bilgi birikimi.
+            <strong>20 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
+            deneyimimizle kaliteli hizmet sunuyoruz.
           </li>
           <li>
             <strong>Uzman Kadro:</strong> Sertifikalı teknisyenlerle kaliteli ve
@@ -80,7 +80,7 @@ function OsmaniyeIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Osmaniye’de klima montajı, bakım ve onarım hizmetleri için bizimle
+          Osmaniye'de klima montajı, bakım ve onarım hizmetleri için bizimle
           iletişime geçin.
         </p>
         <p>

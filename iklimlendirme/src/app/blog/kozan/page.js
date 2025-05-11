@@ -4,39 +4,38 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Yüreğir İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title: "Kozan İklimlendirme | Klima Montaj & Bakım | Adana Klima",
   description:
-    "Yüreğir'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Kozan'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
   keywords:
-    "Yüreğir İklimlendirme, Adana Klima, Yüreğir Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Yüreğir, Adana Soğutma Sistemleri",
+    "Kozan İklimlendirme, Adana Klima, Kozan Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Kozan, Adana Soğutma Sistemleri",
 };
 
-function YuregirIklimlendirme() {
+function KozanIklimlendirme() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <Image
           src={"/img/logo.jpg"}
-          alt={"Yüreğir İklimlendirme Logo"}
-          width={300}
-          height={200}
-          layout="fixed"
+          alt={"Kozan İklimlendirme Logo"}
+          width={150}
+          height={100}
           className={styles.image}
         />
       </div>
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Yüreğir İklimlendirme | Uzman Klima Hizmetleri
+          Kozan İklimlendirme | Uzman Klima Hizmetleri
         </h1>
 
         <p>
-          Adana'nın Yüreğir ilçesinde profesyonel iklimlendirme çözümleriyle
+          Adana'nın Kozan ilçesinde profesyonel iklimlendirme çözümleriyle
           hizmetinizdeyiz. Klima montajı, bakım, onarım ve endüstriyel soğutma
           alanlarında tecrübeli ekibimizle güvenilir hizmet sunuyoruz.
         </p>
 
-        <h2>Yüreğir'de Sunduğumuz İklimlendirme Hizmetleri</h2>
+        <h2>Kozan'da Sunduğumuz İklimlendirme Hizmetleri</h2>
         <ul className={styles.list}>
           <li>
             <strong>Klima Montajı:</strong> Ev, ofis ve iş yerlerine uygun
@@ -52,7 +51,7 @@ function YuregirIklimlendirme() {
           </li>
         </ul>
 
-        <h2>Neden Yüreğir'de Bizi Tercih Etmelisiniz?</h2>
+        <h2>Neden Kozan'da Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
             <strong>20 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
@@ -63,15 +62,15 @@ function YuregirIklimlendirme() {
             güvenilir hizmet.
           </li>
           <li>
-            <strong>Ücretsiz Keşif:</strong> Yüreğir'in tüm mahallelerine
-            ücretsiz keşif hizmeti.
+            <strong>Ücretsiz Keşif:</strong> Kozan'ın tüm mahallelerine ücretsiz
+            keşif hizmeti.
           </li>
           <li>
             <strong>Hızlı Müdahale:</strong> Aynı gün servis imkânı.
           </li>
         </ul>
 
-        <h2>Yüreğir İklimlendirme Fiyatları</h2>
+        <h2>Kozan İklimlendirme Fiyatları</h2>
         <p>
           Fiyatlarımız hizmetin türüne, klima modeli ve alan büyüklüğüne göre
           değişmektedir. En doğru fiyat için ücretsiz keşif randevusu
@@ -80,7 +79,7 @@ function YuregirIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Yüreğir'de klima montajı, bakım ve onarım hizmetleri için bizimle
+          Kozan'da klima montajı, bakım ve onarım hizmetleri için bizimle
           iletişime geçin.
         </p>
         <p>
@@ -93,4 +92,4 @@ function YuregirIklimlendirme() {
   );
 }
 
-export default YuregirIklimlendirme;
+export default KozanIklimlendirme;

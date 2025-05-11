@@ -40,7 +40,58 @@
 .statLabel {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #f0e6e6; 
+  color: #f0e6e6;
   font-style: italic;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .statsSection {
+    gap: 2rem;
+    padding: 1.5rem 1rem;
+    flex-wrap: nowrap;
+  }
+
+  .icon {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .statNumber {
+    font-size: 2.2rem;
+  }
+
+  .statLabel {
+    font-size: 1rem;
+  }
+
+  .statBox {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .statsSection {
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .statNumber {
+    font-size: 1.8rem;
+  }
+
+  .statLabel {
+    font-size: 0.9rem;
+  }
+
+  .statBox {
+    max-width: 110px;
+    padding: 0 5px;
+  }
 }

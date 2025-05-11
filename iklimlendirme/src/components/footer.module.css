@@ -21,9 +21,27 @@
   max-width: 500px;
 }
 
+.aboutUsImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
 .aboutUsImg img {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .aboutUsText p {
@@ -62,8 +80,8 @@
 .footerBottom {
   background-color: #111;
   color: #fff;
-  padding: 1rem 0;
   text-align: center;
+  min-height: 60px;
 }
 
 .footerBottomContainer {
@@ -88,11 +106,106 @@
   color: #f39c12;
 }
 
+.footerBottomText {
+  width: 100%;
+  text-align: center;
+}
+
 .footerBottomText p {
   font-size: 14px;
   font-weight: bold;
+  margin: 0;
+  padding: 5px 0;
 }
 
 .cardBody {
   padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .footerWrapper {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+  }
+
+  .aboutUs {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .aboutUsText p {
+    padding: 0;
+    text-align: start;
+  }
+
+  .footerMenu {
+    text-align: start;
+  }
+
+  .footerMenu h3 {
+    margin-bottom: 15px;
+  }
+
+  .footerMenu ul li {
+    padding-left: 0;
+  }
+
+  .footerBottomContainer {
+    padding: 0.5rem;
+  }
+
+  .footerBottomText {
+    width: 100%;
+  }
+
+  .footerBottomText p {
+    font-size: 12px;
+    padding: 3px 0;
+  }
+
+  .aboutUsImg {
+    padding: 8px;
+  }
+
+  .aboutUsImg img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutUsImg img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .footerMenu ul li a {
+    font-size: 0.8rem;
+  }
+
+  .footerBottomText p {
+    font-size: 0.8rem;
+    padding: 2px 0;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .icons {
+    gap: 10px;
+  }
+
+  .socialIcon a {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
 }

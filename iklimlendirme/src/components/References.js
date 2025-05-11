@@ -9,29 +9,42 @@ import Image from "next/image";
 
 export default function App() {
   const images = [
-    { img: "/img/logo.jpg", alt: "Image 1" },
-    { img: "/img/logo.jpg", alt: "Image 2" },
-    { img: "/img/logo.jpg", alt: "Image 3" },
-    { img: "/img/logo.jpg", alt: "Image 4" },
-    { img: "/img/logo.jpg", alt: "Image 5" },
-    { img: "/img/logo.jpg", alt: "Image 6" },
-    { img: "/img/logo.jpg", alt: "Image 7" },
-    { img: "/img/logo.jpg", alt: "Image 8" },
-    { img: "/img/logo.jpg", alt: "Image 9" },
+    { img: "/img/burgerKing.png", alt: "Burger King" },
+    { img: "/img/boyner.png", alt: "Boyner" },
+    { img: "/img/ipekyol.png", alt: "Ipekyol" },
+    { img: "/img/monoLife.png", alt: "Mono Life" },
+    { img: "/img/popeyes.png", alt: "Popeyes" },
+    { img: "/img/ozsut.png", alt: "Ozsut" },
   ];
 
   return (
     <>
       <Swiper
-        slidesPerView={4}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
         centeredSlides={true}
-        spaceBetween={30}
         grabCursor={true}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination, Autoplay]}
-        className={styles.slider} 
+        className={styles.slider}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -45,7 +58,9 @@ export default function App() {
                 src={image.img}
                 alt={image.alt}
                 layout="fill"
+                objectFit="contain"
                 className={styles.image}
+                priority={index < 2}
               />
             </div>
           </SwiperSlide>

@@ -11,7 +11,7 @@ const Blog = () => {
     {
       title: "Adana İklimlendirme",
       link: "/blog/adana",
-      img: "/img/main.jpg",
+      img: "/img/montaj.jpg",
       alt: "Adana İklimlendirme",
       description:
         "Adana'da iklimlendirme sistemleri ve hizmetleri hakkında bilgi alın.",
@@ -19,7 +19,7 @@ const Blog = () => {
     {
       title: "Yüreğir İklimlendirme",
       link: "/blog/yuregir",
-      img: "/img/logo.jpg",
+      img: "/img/montaj2.jpg",
       alt: "Yüreğir İklimlendirme",
       description:
         "Yüreğir bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -27,14 +27,14 @@ const Blog = () => {
     {
       title: "Sarıçam Havalandırma",
       link: "/blog/saricam",
-      img: "/img/main.jpg",
+      img: "/img/montaj3.jpg",
       alt: "Sarıçam Havalandırma",
       description: "Sarıçam bölgesinde havalandırma sistemleri ve çözümleri.",
     },
     {
       title: "Seyhan İklimlendirme",
       link: "/blog/seyhan",
-      img: "/img/main.jpg",
+      img: "/img/kanal.jpg",
       alt: "Seyhan İklimlendirme",
       description:
         "Seyhan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -42,7 +42,7 @@ const Blog = () => {
     {
       title: "Çukurova İklimlendirme",
       link: "/blog/cukurova",
-      img: "/img/main.jpg",
+      img: "/img/kanal2.jpg",
       alt: "Çukurova İklimlendirme",
       description:
         "Çukurova bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -50,7 +50,7 @@ const Blog = () => {
     {
       title: "Kozan İklimlendirme",
       link: "/blog/kozan",
-      img: "/img/main.jpg",
+      img: "/img/kanal3.jpg",
       alt: "Kozan İklimlendirme",
       description:
         "Kozan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -58,7 +58,7 @@ const Blog = () => {
     {
       title: "Ceyhan İklimlendirme",
       link: "/blog/ceyhan",
-      img: "/img/main.jpg",
+      img: "/img/kamyon.jpg",
       alt: "Ceyhan İklimlendirme",
       description:
         "Ceyhan bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -66,7 +66,7 @@ const Blog = () => {
     {
       title: "Aladağ İklimlendirme",
       link: "/blog/aladag",
-      img: "/img/main.jpg",
+      img: "/img/kanal4.jpg",
       alt: "Aladağ İklimlendirme",
       description:
         "Aladağ bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -74,7 +74,7 @@ const Blog = () => {
     {
       title: "Karaisalı İklimlendirme",
       link: "/blog/karaisali",
-      img: "/img/main.jpg",
+      img: "/img/kanal5.jpg",
       alt: "Karaisalı İklimlendirme",
       description:
         "Karaisalı bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -82,7 +82,7 @@ const Blog = () => {
     {
       title: "Feke İklimlendirme",
       link: "/blog/feke",
-      img: "/img/main.jpg",
+      img: "/img/kanal6.jpg",
       alt: "Fekeİklimlendirme",
       description:
         "Feke bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -90,7 +90,7 @@ const Blog = () => {
     {
       title: "Pozantı İklimlendirme",
       link: "/blog/pozanti",
-      img: "/img/main.jpg",
+      img: "/img/kanal7.jpg",
       alt: "Pozantı İklimlendirme",
       description:
         "Pozantı bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -98,7 +98,7 @@ const Blog = () => {
     {
       title: "Mersin İklimlendirme",
       link: "/blog/mersin",
-      img: "/img/main.jpg",
+      img: "/img/kanal8.jpg",
       alt: "Mersin İklimlendirme",
       description:
         "Mersin bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -106,7 +106,7 @@ const Blog = () => {
     {
       title: "Adıyaman İklimlendirme",
       link: "/blog/adiyaman",
-      img: "/img/main.jpg",
+      img: "/img/kanal9.jpg",
       alt: "Adıyaman İklimlendirme",
       description:
         "Adıyaman bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -114,7 +114,7 @@ const Blog = () => {
     {
       title: "Osmaniye İklimlendirme",
       link: "/blog/osmaniye",
-      img: "/img/main.jpg",
+      img: "/img/kanal10.jpg",
       alt: "Osmaniye İklimlendirme",
       description:
         "Osmaniye bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -122,7 +122,7 @@ const Blog = () => {
     {
       title: "Hatay İklimlendirme",
       link: "/blog/hatay",
-      img: "/img/main.jpg",
+      img: "/img/kanal11.jpg",
       alt: "Hatay İklimlendirme",
       description:
         "Hatay bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
@@ -130,7 +130,7 @@ const Blog = () => {
     {
       title: "İskenderun İklimlendirme",
       link: "/blog/iskenderun",
-      img: "/img/main.jpg",
+      img: "/img/havalandirma.jpg",
       alt: "İskenderun İklimlendirme",
       description:
         "İskenderun bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",

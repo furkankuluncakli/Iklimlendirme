@@ -8,6 +8,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  padding-top: 80px;
 }
 
 :root {
@@ -17,4 +18,16 @@ body {
   --soft-white: #fffdf9;
   --primary-gold: #d4a411;
   --darker-gold: #ffa500;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 60px;
+  }
 }

@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "Mersin İklimlendirme | Klima Montaj & Bakım | Mersin Klima",
   description:
-    "Mersin'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Mersin'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
   keywords:
     "Mersin İklimlendirme, Mersin Klima, Mersin Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Mersin, Mersin Soğutma Sistemleri",
 };
@@ -55,8 +55,8 @@ function MersinIklimlendirme() {
         <h2>Neden Mersin'de Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
-            <strong>15 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
-            bilgi birikimi.
+            <strong>20 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
+            deneyimimizle kaliteli hizmet sunuyoruz.
           </li>
           <li>
             <strong>Uzman Kadro:</strong> Sertifikalı teknisyenlerle kaliteli ve
@@ -80,7 +80,7 @@ function MersinIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Mersin’de klima montajı, bakım ve onarım hizmetleri için bizimle
+          Mersin'de klima montajı, bakım ve onarım hizmetleri için bizimle
           iletişime geçin.
         </p>
         <p>

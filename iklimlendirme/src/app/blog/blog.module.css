@@ -92,9 +92,54 @@
 }
 
 .cardLink:hover {
-  color: var(--darker-gold);
+  background-color: var(--darker-gold);
 }
 
 .cardLink:hover .arrowIcon {
   transform: translateX(4px);
+}
+
+@media screen and (max-width: 768px) {
+  .blogContainer {
+    padding: 15px;
+  }
+
+  .blogTitle {
+    font-size: 2rem;
+  }
+
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .card {
+    min-height: 25rem;
+  }
+
+  .card img {
+    height: 15rem;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardDescription {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .blogTitle {
+    font-size: 1.5rem;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .cardLinkText {
+    font-size: 0.9rem;
+  }
 }

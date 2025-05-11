@@ -1,6 +1,7 @@
 .bodyContainer {
   margin: 0 auto;
   max-width: 1200px;
+  padding: 0 1rem;
 }
 
 .container {
@@ -26,6 +27,7 @@
 .bodyTitle {
   margin-bottom: 1rem;
   color: var(--primary-gold);
+  font-size: 2rem;
 }
 
 .mission,
@@ -36,26 +38,20 @@
   margin-bottom: 30px;
 }
 
-.mission h2 {
-  font-size: 22px;
-  color: var(--primary-gold);
-  margin-bottom: 10px;
-}
-
-.mission p {
-  font-size: 16px;
-  color: #333;
-}
-
+.mission h2,
 .vision h2 {
   font-size: 22px;
   color: var(--primary-gold);
   margin-bottom: 10px;
 }
 
-.vision p {
+.mission p,
+.vision p,
+.principles p,
+.description {
   font-size: 16px;
   color: #333;
+  margin-bottom: 15px;
 }
 
 .principles h1 {
@@ -72,14 +68,71 @@
   margin-bottom: 8px;
 }
 
-.principles p {
-  font-size: 16px;
-  color: #333;
-  margin-bottom: 15px;
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .bodyTitle {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .mission h2,
+  .vision h2,
+  .principles h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .principles h1 {
+    font-size: 1.8rem;
+  }
+
+  .mission p,
+  .vision p,
+  .principles p,
+  .description {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 
-.description {
-  font-size: 16px;
-  margin-bottom: 15px;
-  color: #333;
+@media screen and (max-width: 480px) {
+  .bodyContainer {
+    padding: 0 0.5rem;
+  }
+
+  .container {
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .bodyTitle {
+    font-size: 1.5rem;
+  }
+
+  .mission h2,
+  .vision h2,
+  .principles h2 {
+    font-size: 1.3rem;
+  }
+
+  .principles h1 {
+    font-size: 1.5rem;
+  }
+
+  .mission p,
+  .vision p,
+  .principles p,
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
 }

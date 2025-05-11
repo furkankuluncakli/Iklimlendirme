@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "Aladağ İklimlendirme | Klima Montaj & Bakım | Adana Klima",
   description:
-    "Aladağ'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Aladağ'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
   keywords:
     "Aladağ İklimlendirme, Adana Klima, Aladağ Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Aladağ, Adana Soğutma Sistemleri",
 };
@@ -55,8 +55,8 @@ function AladagIklimlendirme() {
         <h2>Neden Aladağ'da Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
-            <strong>15 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
-            bilgi birikimi.
+            <strong>20 Yıllık Tecrübe:</strong> Sektördeki uzun yıllara dayanan
+            deneyimimizle kaliteli hizmet sunuyoruz.
           </li>
           <li>
             <strong>Uzman Kadro:</strong> Sertifikalı teknisyenlerle kaliteli ve
@@ -80,7 +80,7 @@ function AladagIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Aladağ’da klima montajı, bakım ve onarım hizmetleri için bizimle
+          Aladağ'da klima montajı, bakım ve onarım hizmetleri için bizimle
           iletişime geçin.
         </p>
         <p>

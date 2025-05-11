@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "İskenderun İklimlendirme | Klima Montaj & Bakım | Hatay Klima",
   description:
-    "İskenderun'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 15 Yıllık Deneyim ✓ Ücretsiz Keşif ✓ Profesyonel Ekip ✓ Hızlı Servis!",
+    "İskenderun'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 20 Yıllık Deneyim ✓ Ücretsiz Keşif ✓ Profesyonel Ekip ✓ Hızlı Servis!",
   keywords:
     "İskenderun İklimlendirme, Hatay Klima, İskenderun Klima Montajı, Klima Bakımı İskenderun, Endüstriyel Soğutma Hatay, Soğutma Sistemleri İskenderun",
 };
@@ -54,7 +54,7 @@ function IskenderunIklimlendirme() {
         <h2>Bizi Tercih Etme Nedenleriniz</h2>
         <ul className={styles.list}>
           <li>
-            <strong>15+ Yıl Deneyim:</strong> Güvenilir ve tecrübeli hizmet.
+            <strong>20+ Yıl Deneyim:</strong> Güvenilir ve tecrübeli hizmet.
           </li>
           <li>
             <strong>Ücretsiz Keşif:</strong> İskenderun'un her noktasına hızlı

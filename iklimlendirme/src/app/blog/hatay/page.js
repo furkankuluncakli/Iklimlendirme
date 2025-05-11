@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "Hatay İklimlendirme | Klima Montaj & Bakım | Hatay Klima",
   description:
-    "Hatay'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Hatay'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
   keywords:
     "Hatay İklimlendirme, Hatay Klima, Hatay Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Hatay, Hatay Soğutma Sistemleri",
 };
@@ -54,8 +54,8 @@ function HatayIklimlendirme() {
         <h2>Neden Hatay'da Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
-            <strong>15 Yıllık Tecrübe:</strong> Klima sektöründe güvenilir
-            geçmiş.
+            <strong>20 Yıllık Tecrübe:</strong> Klima sektöründe güvenilir
+            hizmet.
           </li>
           <li>
             <strong>Uzman Teknik Ekip:</strong> Eğitimli, belgeli teknisyenlerle

@@ -4,9 +4,10 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Adana İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
+  title:
+    "Adana İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
   description:
-    "Adana'da klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 15 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
+    "Adana'da klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 20 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
   keywords:
     "Adana İklimlendirme, Adana Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Adana Havalandırma, VRF Sistemleri",
 };
@@ -32,39 +33,63 @@ function AdanaIklimlendirme() {
         <section>
           <h2>Adana'da Klima ve İklimlendirme Hizmetleri</h2>
           <p>
-            BNR Havalandırma olarak Adana'da klima montajı, klima bakımı ve endüstriyel soğutma alanında profesyonel çözümler sunuyoruz. Her bütçeye uygun fiyatlarla, güvenilir ve kaliteli hizmet garantisi veriyoruz.
+            BNR Havalandırma olarak Adana'da klima montajı, klima bakımı ve
+            endüstriyel soğutma alanında profesyonel çözümler sunuyoruz. Her
+            bütçeye uygun fiyatlarla, güvenilir ve kaliteli hizmet garantisi
+            veriyoruz.
           </p>
         </section>
 
         <section>
           <h3>Hizmetlerimiz</h3>
           <ul className={styles.list}>
-            <li><strong>Klima Montajı:</strong> Ev ve iş yerleri için güvenilir ve estetik montaj hizmeti.</li>
-            <li><strong>Klima Bakımı:</strong> Periyodik bakım hizmetleri ile cihazlarınızın verimliliğini artırın.</li>
-            <li><strong>Endüstriyel Soğutma:</strong> Fabrika, depo ve marketler için özel soğutma sistemleri kurulumu.</li>
+            <li>
+              <strong>Klima Montajı:</strong> Ev ve iş yerleri için güvenilir ve
+              estetik montaj hizmeti.
+            </li>
+            <li>
+              <strong>Klima Bakımı:</strong> Periyodik bakım hizmetleri ile
+              cihazlarınızın verimliliğini artırın.
+            </li>
+            <li>
+              <strong>Endüstriyel Soğutma:</strong> Fabrika, depo ve marketler
+              için özel soğutma sistemleri kurulumu.
+            </li>
           </ul>
         </section>
 
         <section>
           <h3>Neden BNR Havalandırma?</h3>
           <ul className={styles.list}>
-            <li><strong>20+ Yıllık Deneyim:</strong> Yerel uzmanlık ve sektörel bilgi.</li>
-            <li><strong>Kaliteli Malzeme:</strong> Uzun ömürlü ve yüksek performanslı ürün kullanımı.</li>
-            <li><strong>Hızlı ve Güvenilir Hizmet:</strong> Zamanında teslimat ve müşteri memnuniyeti garantisi.</li>
+            <li>
+              <strong>20+ Yıllık Deneyim:</strong> Yerel uzmanlık ve sektörel
+              bilgi.
+            </li>
+            <li>
+              <strong>Kaliteli Malzeme:</strong> Uzun ömürlü ve yüksek
+              performanslı ürün kullanımı.
+            </li>
+            <li>
+              <strong>Hızlı ve Güvenilir Hizmet:</strong> Zamanında teslimat ve
+              müşteri memnuniyeti garantisi.
+            </li>
           </ul>
         </section>
 
         <section>
           <h3>Adana Klima Montaj ve Bakım Fiyatları</h3>
           <p>
-            Fiyatlarımız hizmetin türüne, alanın büyüklüğüne ve tercih edilen marka/modele göre değişmektedir. Ücretsiz keşif hizmetimiz ile net fiyat teklifi alabilirsiniz.
+            Fiyatlarımız hizmetin türüne, alanın büyüklüğüne ve tercih edilen
+            marka/modele göre değişmektedir. Ücretsiz keşif hizmetimiz ile net
+            fiyat teklifi alabilirsiniz.
           </p>
         </section>
 
         <section>
           <h3>İletişim ve Ücretsiz Keşif</h3>
           <p>
-            Adana'da iklimlendirme ve soğutma çözümleri için bizimle hemen iletişime geçin.
+            Adana'da iklimlendirme ve soğutma çözümleri için bizimle hemen
+            iletişime geçin.
           </p>
           <p>
             <a href="tel:+905446653943" className={styles.contactLink}>

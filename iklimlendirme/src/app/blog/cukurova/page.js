@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "Çukurova İklimlendirme | Klima Montaj & Bakım | Adana Klima",
   description:
-    "Çukurova'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 15 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Uygun Fiyat ✓ Profesyonel Hizmet!",
+    "Çukurova'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Uygun Fiyat ✓ Profesyonel Hizmet!",
   keywords:
     "Çukurova İklimlendirme, Adana Klima, Çukurova Klima Montajı, Klima Bakımı Çukurova, Endüstriyel Soğutma Adana, Çukurova Soğutma Sistemleri",
 };
@@ -30,8 +30,8 @@ function CukurovaIklimlendirme() {
         </h1>
 
         <p>
-          Adana Çukurova’da profesyonel iklimlendirme çözümleri sunuyoruz.
-          Klima montajı, periyodik bakım, arıza onarımı ve endüstriyel soğutma
+          Adana Çukurova'da profesyonel iklimlendirme çözümleri sunuyoruz. Klima
+          montajı, periyodik bakım, arıza onarımı ve endüstriyel soğutma
           sistemlerinde uzman ekibimizle yanınızdayız.
         </p>
 
@@ -51,10 +51,10 @@ function CukurovaIklimlendirme() {
           </li>
         </ul>
 
-        <h2>Neden Çukurova’da Bizi Tercih Etmelisiniz?</h2>
+        <h2>Neden Çukurova'da Bizi Tercih Etmelisiniz?</h2>
         <ul className={styles.list}>
           <li>
-            <strong>15 Yıllık Deneyim:</strong> Yüzlerce memnun müşteri.
+            <strong>20 Yıllık Deneyim:</strong> Yüzlerce memnun müşteri.
           </li>
           <li>
             <strong>Uzman Ekip:</strong> Alanında eğitimli ve deneyimli
@@ -64,7 +64,8 @@ function CukurovaIklimlendirme() {
             <strong>Hızlı Hizmet:</strong> Aynı gün keşif ve servis imkânı.
           </li>
           <li>
-            <strong>Ücretsiz Keşif:</strong> Çukurova’nın tüm mahallelerine özel.
+            <strong>Ücretsiz Keşif:</strong> Çukurova'nın tüm mahallelerine
+            özel.
           </li>
         </ul>
 
@@ -77,7 +78,7 @@ function CukurovaIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Çukurova’da klima montajı, bakım ve endüstriyel soğutma çözümleri için
+          Çukurova'da klima montajı, bakım ve endüstriyel soğutma çözümleri için
           bizimle hemen iletişime geçin.
         </p>
         <p>
