@@ -33,7 +33,7 @@ export default function Home() {
                 <Link href="/contact-us" className={styles.overlayButton}>
                   Ücretsiz İletişim İçin Arayın
                 </Link>
-                <Link href="/projects" className={styles.overlayButton}>
+                <Link href="/services" className={styles.overlayButton}>
                   Hizmetlerimizi İnceleyin
                 </Link>
               </div>
