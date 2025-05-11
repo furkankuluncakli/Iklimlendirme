@@ -4,7 +4,7 @@ import styles from "./navbar.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const route = usePathname();
   return (
     <>
@@ -12,10 +12,6 @@ const Navbar = (props) => {
         <nav className={styles.navbar}>
           <div className={styles.logo}>
             <img src="img/logo.jpg" alt="Logo" />
-            <div className={styles.logoText}>
-              <span>MÜHENDİSLİK</span>
-              <span>{props.title}</span>
-            </div>
           </div>
           <ul className={styles.navMenu}>
             <li>
