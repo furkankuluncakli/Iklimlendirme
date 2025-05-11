@@ -18,13 +18,12 @@ const Navbar = (props) => {
             </div>
           </div>
           <ul className={styles.navMenu}>
-            {route == "/" ? null : (
-              <li>
-                <Link href="/" className={route == "/" ? styles.active : null}>
-                  Anasayfa
-                </Link>
-              </li>
-            )}
+            <li>
+              <Link href="/" className={route == "/" ? styles.active : null}>
+                Anasayfa
+              </Link>
+            </li>
+
             <li>
               <Link
                 href="/about-us"
@@ -34,13 +33,15 @@ const Navbar = (props) => {
               </Link>
             </li>
             <li>
-              <Link href="/services">Hizmetlerimiz</Link>
+              <Link
+                href="/services"
+                className={route == "/services" ? styles.active : null}
+              >
+                Hizmetlerimiz
+              </Link>
             </li>
             <li>
-              <a href="/projects">Projelerimiz</a>
-            </li>
-            <li>
-              <Link href="#references">Referanslarımız</Link>
+              <Link href="/#references">Referanslarımız</Link>
             </li>
             <li>
               <Link
@@ -51,7 +52,12 @@ const Navbar = (props) => {
               </Link>
             </li>
             <li>
-              <a href="/contact-us">İletişim</a>
+              <Link
+                href="/contact-us"
+                className={route == "/contact-us" ? styles.active : null}
+              >
+                İletişim
+              </Link>
             </li>
           </ul>
         </nav>

@@ -62,7 +62,7 @@
 
 .cardLink {
   display: inline-block;
-  background-color: #4ca7e8;
+  background-color: var(--primary-gold);
   border-radius: 9999px;
   padding: 10px 24px;
   text-decoration: none;
@@ -92,7 +92,7 @@
 }
 
 .cardLink:hover {
-  background-color: #2563eb;
+  color: var(--darker-gold);
 }
 
 .cardLink:hover .arrowIcon {

@@ -7,6 +7,7 @@ import { MdPlumbing } from "react-icons/md";
 import { BsEnvelope, BsGeoAlt, BsTelephone } from "react-icons/bs";
 import StatisticsSection from "@/components/StatisticsSection";
 import References from "@/components/References";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -29,12 +30,12 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.overlayActions}>
-                <a href="/contact-us" className={styles.overlayButton}>
+                <Link href="/contact-us" className={styles.overlayButton}>
                   Ücretsiz İletişim İçin Arayın
-                </a>
-                <a href="/projects" className={styles.overlayButton}>
+                </Link>
+                <Link href="/projects" className={styles.overlayButton}>
                   Hizmetlerimizi İnceleyin
-                </a>
+                </Link>
               </div>
               <div>
                 <StatisticsSection />

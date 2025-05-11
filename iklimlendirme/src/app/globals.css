@@ -11,8 +11,10 @@ body {
 }
 
 :root {
-  --primary-blue: #004e89; 
+  --primary-blue: #004e89;
   --light-blue: #4ca7e8;
   --light-gray: #f4f4f4;
-  --soft-white: #FFFDF9 ;
+  --soft-white: #fffdf9;
+  --primary-gold: #d4a411;
+  --darker-gold: #ffa500;
 }

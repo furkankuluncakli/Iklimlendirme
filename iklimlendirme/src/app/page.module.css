@@ -1,5 +1,5 @@
 .sectionOne {
- height: calc(100vh - 70px);
+  height: calc(100vh - 70px);
 }
 
 .imgContainer {
@@ -13,7 +13,7 @@
   left: 0;
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
@@ -46,7 +46,7 @@
   margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 800;
-  color: #d4a411; 
+  color: var(--darker-gold); 
 }
 
 .overlayDescription {
@@ -56,15 +56,15 @@
   gap: 1rem;
   text-align: center;
   font-size: 1.5rem;
-  color: #f3f4f6; 
+  color: #f3f4f6;
   margin-bottom: 1rem;
 }
 
 .overlayButton {
-  background-color: #d4a411;
+  background-color: var(--primary-gold); 
   color: white;
   padding: 15px 20px;
-  border-radius: 8px; 
+  border-radius: 8px;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -74,13 +74,13 @@
 }
 
 .overlayButton:hover {
-  background-color: #d4a311e3; 
-  transform: scale(1.05); 
+  background-color: var(--darker-gold); 
+  transform: scale(1.05);
 }
 
 .overlayActions {
   display: flex;
-  gap: 2rem; 
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -95,12 +95,12 @@
   justify-content: center;
   text-align: center;
   padding: 50px 20px;
-  background-color: #f3f4f6; 
+  background-color: #f3f4f6;
 }
 .sectionSecond h2 {
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
   font-weight: 800;
-  color: #1f2937; 
+  color: var(--primary-gold);
   margin-bottom: 30px;
 }
 
@@ -135,18 +135,18 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   transform: translateY(-10px);
 }
 
 .icon {
-  font-size: 50px; 
-  color: #3b82f6; 
-  margin-bottom: 0.5rem;
+  font-size: 50px;
+  color: var(--darker-gold);
+  
 }
 
 .cardBody {
@@ -157,13 +157,13 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #111827; 
+  color: #111827;
 }
 
 .cardBodyDescription {
   text-align: center;
   font-size: 1rem;
-  color: #6b7280; 
+  color: #6b7280;
 }
 
 .sectionThird {
@@ -176,7 +176,7 @@
 .sectionThird h2 {
   font-size: 28px;
   font-weight: bold;
-  color: #eab308; 
+  color: #eab308;
   margin-bottom: 30px;
 }
 
@@ -200,12 +200,12 @@
   max-width: 250px;
   max-height: 250px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .refCard img:hover {
   transform: translateY(-10px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .contactContainer {
@@ -283,6 +283,6 @@
   text-align: center;
   font-size: 28px;
   font-weight: bold;
-  color: #eab308; 
+  color: #eab308;
   margin-bottom: 30px;
 }
