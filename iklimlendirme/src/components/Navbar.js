@@ -83,8 +83,8 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/contactUs"
-                className={route == "/contactUs" ? styles.active : null}
+                href="/contact-us"
+                className={route == "/contact-us" ? styles.active : null}
                 onClick={toggleMenu}
               >
                 İletişim
