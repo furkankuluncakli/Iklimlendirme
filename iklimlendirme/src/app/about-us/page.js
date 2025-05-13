@@ -12,16 +12,25 @@ const page = () => {
                 BNR Havalandırma Proje Yönetimi
               </h2>
               <p className={styles.description}>
-                BNR Havalandırma, 2025 yılında kurulmuş olup, hastane, alışveriş
-                merkezi, otel, konut, ofis ve restoran gibi yapılarda; ısıtma,
+                BNR Havalandırma, 2025 yılında kurulmuş olup; hastane, alışveriş
+                merkezi, otel, konut, ofis ve restoran gibi yapılarda ısıtma,
                 soğutma, havalandırma, taze hava, izolasyon, galvaniz sac
                 uygulamaları, konfor iklimlendirme, yangın tesisatı ve sıhhi
                 tesisat başta olmak üzere, mekanik tesisat alanlarında proje,
-                taahhüt ve danışmanlık hizmetleri sunmaktadır. Kurulduğu günden
-                bu yana sektördeki teknolojik gelişmeleri yakından takip eden
-                BNR Havalandırma, müşteri memnuniyetini esas alan yaklaşımıyla,
-                sürdürülebilir ve yüksek verimli çözümler üretmeyi
-                hedeflemektedir.
+                taahhüt ve danışmanlık hizmetleri sunmaktadır.
+              </p>
+              <p className={styles.description}>
+                Aslında hikâyemiz, 2010 yılında "Bener İklimlendirme" adıyla
+                başladığımız sektör yolculuğumuza dayanmaktadır. Kurumsal
+                yapımızı güçlendirme ve hizmet kalitemizi daha da ileriye taşıma
+                hedefiyle 2025 yılında markamızı BNR Havalandırma olarak
+                yenileyerek yola devam etme kararı aldık.
+              </p>
+              <p className={styles.description}>
+                Kurulduğu günden bu yana sektördeki teknolojik gelişmeleri
+                yakından takip eden BNR Havalandırma, müşteri memnuniyetini esas
+                alan yaklaşımıyla, sürdürülebilir ve yüksek verimli çözümler
+                üretmeyi hedeflemektedir.
               </p>
               <p className={styles.description}>
                 Amacımız, müşteri memnuniyetini temel ilke edinerek, kalite
