@@ -39,6 +39,11 @@ function HatayIklimlendirme() {
         <h2>Hatay'da Sunduğumuz İklimlendirme Hizmetleri</h2>
         <ul className={styles.list}>
           <li>
+            <strong>Havalandırma Sistemleri:</strong> İç mekan hava kalitesini
+            artıran, enerji tasarruflu ve modern havalandırma sistemleri
+            kurulumu ve bakımı.
+          </li>
+          <li>
             <strong>Klima Montajı:</strong> Konut ve iş yerleri için uzman
             kurulum hizmeti.
           </li>

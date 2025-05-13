@@ -43,6 +43,11 @@ function PozantiIklimlendirme() {
           <h3>Hizmetlerimiz</h3>
           <ul className={styles.list}>
             <li>
+              <strong>Havalandırma Sistemleri:</strong> İç mekan hava kalitesini
+              artıran, enerji tasarruflu ve modern havalandırma sistemleri
+              kurulumu ve bakımı.
+            </li>
+            <li>
               <strong>Klima Montajı:</strong> Ev ve iş yerleri için güvenilir ve
               estetik montaj hizmeti.
             </li>

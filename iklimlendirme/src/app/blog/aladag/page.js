@@ -39,16 +39,21 @@ function AladagIklimlendirme() {
         <h2>Aladağ'da Sunduğumuz İklimlendirme Hizmetleri</h2>
         <ul className={styles.list}>
           <li>
-            <strong>Klima Montajı:</strong> Ev, ofis ve iş yerlerine uygun
-            profesyonel klima kurulum hizmeti.
+            <strong>Havalandırma Sistemleri:</strong> İç mekan hava kalitesini
+            artıran, enerji tasarruflu ve modern havalandırma sistemleri
+            kurulumu ve bakımı.
           </li>
           <li>
-            <strong>Klima Bakımı:</strong> Mevsimsel bakım ile klimalarınız daha
-            verimli ve uzun ömürlü olur.
+            <strong>Klima Montajı:</strong> Ev ve iş yerleri için güvenilir ve
+            estetik montaj hizmeti.
           </li>
           <li>
-            <strong>Endüstriyel Soğutma:</strong> Fabrika ve depo gibi büyük
-            ölçekli alanlara özel soğutma sistemleri.
+            <strong>Klima Bakımı:</strong> Periyodik bakım hizmetleri ile
+            cihazlarınızın verimliliğini artırın.
+          </li>
+          <li>
+            <strong>Endüstriyel Soğutma:</strong> Fabrika, depo ve marketler
+            için özel soğutma sistemleri kurulumu.
           </li>
         </ul>
 

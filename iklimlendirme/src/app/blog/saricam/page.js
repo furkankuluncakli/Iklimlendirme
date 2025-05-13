@@ -38,6 +38,11 @@ function SaricamIklimlendirme() {
         <h2>Sarıçam'da Sunduğumuz Hizmetler</h2>
         <ul className={styles.list}>
           <li>
+            <strong>Havalandırma Sistemleri:</strong> İç mekan hava kalitesini
+            artıran, enerji tasarruflu ve modern havalandırma sistemleri
+            kurulumu ve bakımı.
+          </li>
+          <li>
             <strong>Klima Montajı:</strong> Evinize veya iş yerinize en uygun
             montaj hizmeti.
           </li>

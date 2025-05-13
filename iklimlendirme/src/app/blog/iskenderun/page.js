@@ -39,6 +39,11 @@ function IskenderunIklimlendirme() {
         <h2>İskenderun'da Sunduğumuz Hizmetler</h2>
         <ul className={styles.list}>
           <li>
+            <strong>Havalandırma Sistemleri:</strong> İç mekan hava kalitesini
+            artıran, enerji tasarruflu ve modern havalandırma sistemleri
+            kurulumu ve bakımı.
+          </li>
+          <li>
             <strong>Klima Montajı:</strong> Hızlı ve garantili kurulum.
           </li>
           <li>

@@ -39,6 +39,11 @@ function TarsusIklimlendirme() {
         <h2>Tarsus'taki İklimlendirme Hizmetlerimiz</h2>
         <ul className={styles.list}>
           <li>
+            <strong>Havalandırma Sistemleri:</strong> İç mekan hava kalitesini
+            artıran, enerji tasarruflu ve modern havalandırma sistemleri
+            kurulumu ve bakımı.
+          </li>
+          <li>
             <strong>Klima Montajı:</strong> Hedefe uygun ve garantili kurulum.
           </li>
           <li>
@@ -78,7 +83,7 @@ function TarsusIklimlendirme() {
 
         <h2>İletişim</h2>
         <p>
-          Tarsus’ta kaliteli klima hizmetleri için hemen bizimle iletişime
+          Tarsus'ta kaliteli klima hizmetleri için hemen bizimle iletişime
           geçin.
         </p>
         <p>

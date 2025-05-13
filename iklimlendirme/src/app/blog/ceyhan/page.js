@@ -38,6 +38,11 @@ function CeyhanIklimlendirme() {
         <h2>Ceyhan'da Sunduğumuz İklimlendirme Hizmetleri</h2>
         <ul className={styles.list}>
           <li>
+            <strong>Havalandırma Sistemleri:</strong> İç mekan hava kalitesini
+            artıran, enerji tasarruflu ve modern havalandırma sistemleri
+            kurulumu ve bakımı.
+          </li>
+          <li>
             <strong>Klima Montajı:</strong> Ev, ofis ve iş yerlerine uygun
             profesyonel klima kurulum hizmeti.
           </li>
