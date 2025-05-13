@@ -26,7 +26,7 @@ function KozanIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Kozan İklimlendirme | Uzman Klima Hizmetleri
+          Kozan İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

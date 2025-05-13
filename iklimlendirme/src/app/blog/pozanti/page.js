@@ -24,7 +24,7 @@ function PozantiIklimlendirme() {
           className={styles.image}
         />
         <h1 className={styles.mainTitle}>
-          Pozantı İklimlendirme | Profesyonel Klima Çözümleri
+          Pozantı İklimlendirme | Profesyonel Havalandırma Hizmetleri
         </h1>
       </header>
 

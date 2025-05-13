@@ -27,7 +27,7 @@ function KaraisaliIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Karaisalı İklimlendirme | Uzman Klima Hizmetleri
+          Karaisalı İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

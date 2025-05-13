@@ -26,7 +26,7 @@ function CukurovaIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Çukurova İklimlendirme | Güvenilir Klima Hizmetleri
+          Çukurova İklimlendirme | Güvenilir Havalandırma Hizmetleri
         </h1>
 
         <p>

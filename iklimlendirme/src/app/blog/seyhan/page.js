@@ -27,7 +27,7 @@ function SeyhanIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Seyhan İklimlendirme | Uzman Klima Hizmetleri
+          Seyhan İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

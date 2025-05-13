@@ -27,7 +27,7 @@ function HatayIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Hatay İklimlendirme | Uzman Klima Hizmetleri
+          Hatay İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

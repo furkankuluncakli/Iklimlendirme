@@ -24,7 +24,7 @@ function FekeIklimlendirme() {
           className={styles.image}
         />
         <h1 className={styles.mainTitle}>
-          Feke İklimlendirme | Profesyonel Klima Çözümleri
+          Feke İklimlendirme | Profesyonel Havalandırma Hizmetleri
         </h1>
       </header>
 

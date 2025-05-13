@@ -27,7 +27,7 @@ function AladagIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Aladağ İklimlendirme | Uzman Klima Hizmetleri
+          Aladağ İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

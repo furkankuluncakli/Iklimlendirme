@@ -27,7 +27,7 @@ function YuregirIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Yüreğir İklimlendirme | Uzman Klima Hizmetleri
+          Yüreğir İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

@@ -27,7 +27,7 @@ function OsmaniyeIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Osmaniye İklimlendirme | Uzman Klima Hizmetleri
+          Osmaniye İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

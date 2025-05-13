@@ -27,7 +27,7 @@ function IskenderunIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          İskenderun İklimlendirme | Güvenilir Klima Çözümleri
+          İskenderun İklimlendirme | Güvenilir Havalandırma Hizmetleri
         </h1>
 
         <p>

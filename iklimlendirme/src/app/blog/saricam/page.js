@@ -26,7 +26,7 @@ function SaricamIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Sarıçam İklimlendirme | Güvenilir Klima Hizmetleri
+          Sarıçam İklimlendirme | Güvenilir Havalandırma Hizmetleri
         </h1>
 
         <p>

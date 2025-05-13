@@ -27,7 +27,7 @@ function MersinIklimlendirme() {
 
       <article className={styles.article}>
         <h1 className={styles.mainTitle}>
-          Mersin İklimlendirme | Uzman Klima Hizmetleri
+          Mersin İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
 
         <p>

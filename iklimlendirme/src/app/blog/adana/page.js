@@ -25,7 +25,7 @@ function AdanaIklimlendirme() {
           className={styles.image}
         />
         <h1 className={styles.mainTitle}>
-          Adana İklimlendirme | Profesyonel Klima Çözümleri
+          Adana İklimlendirme | Uzman Havalandırma Hizmetleri
         </h1>
       </header>
 
