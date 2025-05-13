@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Sarıçam İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title:
+    "Sarıçam Havalandırma ve İklimlendirme | Modern Havalandırma Sistemleri",
   description:
-    "Sarıçam'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Uygun Fiyat ✓ Profesyonel Hizmet!",
+    "Sarıçam'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Sarıçam İklimlendirme, Adana Klima, Sarıçam Klima Montajı, Klima Bakımı Sarıçam, Endüstriyel Soğutma Adana, Sarıçam Soğutma Sistemleri",
+    "Sarıçam Havalandırma, Sarıçam İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function SaricamIklimlendirme() {

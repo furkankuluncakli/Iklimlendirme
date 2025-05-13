@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "İskenderun İklimlendirme | Klima Montaj & Bakım | Hatay Klima",
+  title:
+    "İskenderun Havalandırma ve İklimlendirme | Modern Havalandırma Sistemleri",
   description:
-    "İskenderun'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 20 Yıllık Deneyim ✓ Ücretsiz Keşif ✓ Profesyonel Ekip ✓ Hızlı Servis!",
+    "İskenderun'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "İskenderun İklimlendirme, Hatay Klima, İskenderun Klima Montajı, Klima Bakımı İskenderun, Endüstriyel Soğutma Hatay, Soğutma Sistemleri İskenderun",
+    "İskenderun Havalandırma, İskenderun İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Hatay Havalandırma Sistemleri",
 };
 
 function IskenderunIklimlendirme() {

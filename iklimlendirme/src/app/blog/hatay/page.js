@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Hatay İklimlendirme | Klima Montaj & Bakım | Hatay Klima",
+  title:
+    "Hatay Havalandırma ve İklimlendirme | Profesyonel Havalandırma Sistemleri",
   description:
-    "Hatay'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Hatay'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Hatay İklimlendirme, Hatay Klima, Hatay Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Hatay, Hatay Soğutma Sistemleri",
+    "Hatay Havalandırma, Hatay İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Hatay Havalandırma Sistemleri",
 };
 
 function HatayIklimlendirme() {

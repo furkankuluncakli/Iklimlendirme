@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Kozan İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title: "Kozan Havalandırma ve İklimlendirme | Modern Havalandırma Çözümleri",
   description:
-    "Kozan'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Kozan'da profesyonel havalandırma ve iklimlendirme sistemleri. İç hava kalitesi, enerji verimliliği ve endüstriyel havalandırma çözümleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Kozan İklimlendirme, Adana Klima, Kozan Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Kozan, Adana Soğutma Sistemleri",
+    "Kozan Havalandırma, Kozan İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function KozanIklimlendirme() {

@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Karaisalı İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title:
+    "Karaisalı Havalandırma ve İklimlendirme | Profesyonel Havalandırma Çözümleri",
   description:
-    "Karaisalı'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Karaisalı'da profesyonel havalandırma ve iklimlendirme sistemleri. İç hava kalitesi, enerji verimliliği ve endüstriyel havalandırma çözümleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Karaisalı İklimlendirme, Adana Klima, Karaisalı Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Karaisalı, Adana Soğutma Sistemleri",
+    "Karaisalı Havalandırma, Karaisalı İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function KaraisaliIklimlendirme() {

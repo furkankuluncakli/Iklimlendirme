@@ -5,11 +5,11 @@ import Image from "next/image";
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title:
-    "Pozantı İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
+    "Pozantı Havalandırma ve İklimlendirme | Profesyonel Havalandırma Sistemleri",
   description:
-    "Pozantı'da klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 20 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
+    "Pozantı'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Pozantı İklimlendirme, Pozantı Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Pozantı Havalandırma, VRF Sistemleri",
+    "Pozantı Havalandırma, Pozantı İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Pozantı Soğutma Sistemleri, VRF Sistemleri",
 };
 
 function PozantiIklimlendirme() {

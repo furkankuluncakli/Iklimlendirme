@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Çukurova İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title:
+    "Çukurova Havalandırma ve İklimlendirme | Modern Havalandırma Sistemleri",
   description:
-    "Çukurova'da klima montajı, bakım ve endüstriyel soğutma hizmetleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Uygun Fiyat ✓ Profesyonel Hizmet!",
+    "Çukurova'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Çukurova İklimlendirme, Adana Klima, Çukurova Klima Montajı, Klima Bakımı Çukurova, Endüstriyel Soğutma Adana, Çukurova Soğutma Sistemleri",
+    "Çukurova Havalandırma, Çukurova İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function CukurovaIklimlendirme() {

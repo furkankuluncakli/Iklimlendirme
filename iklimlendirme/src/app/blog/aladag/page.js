@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Aladağ İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title:
+    "Aladağ Havalandırma ve İklimlendirme | Profesyonel Havalandırma Sistemleri",
   description:
-    "Aladağ'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Aladağ'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Aladağ İklimlendirme, Adana Klima, Aladağ Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Aladağ, Adana Soğutma Sistemleri",
+    "Aladağ Havalandırma, Aladağ İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function AladagIklimlendirme() {

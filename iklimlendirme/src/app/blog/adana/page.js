@@ -5,11 +5,11 @@ import Image from "next/image";
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title:
-    "Adana İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
+    "Adana Havalandırma ve İklimlendirme | Profesyonel Havalandırma Sistemleri",
   description:
-    "Adana'da klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 20 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
+    "Adana'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Adana İklimlendirme, Adana Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Adana Havalandırma, VRF Sistemleri",
+    "Adana Havalandırma, Adana İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function AdanaIklimlendirme() {

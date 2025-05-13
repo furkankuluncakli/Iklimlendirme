@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Mersin İklimlendirme | Klima Montaj & Bakım | Mersin Klima",
+  title:
+    "Mersin Havalandırma ve İklimlendirme | Modern Havalandırma Sistemleri",
   description:
-    "Mersin'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Mersin'de profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Mersin İklimlendirme, Mersin Klima, Mersin Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Mersin, Mersin Soğutma Sistemleri",
+    "Mersin Havalandırma, Mersin İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Mersin Havalandırma Sistemleri",
 };
 
 function MersinIklimlendirme() {

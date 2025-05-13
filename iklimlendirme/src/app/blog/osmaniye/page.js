@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Osmaniye İklimlendirme | Klima Montaj & Bakım | Osmaniye Klima",
+  title:
+    "Osmaniye Havalandırma ve İklimlendirme | Modern Havalandırma Sistemleri",
   description:
-    "Osmaniye'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Osmaniye'de profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Osmaniye İklimlendirme, Osmaniye Klima, Osmaniye Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Osmaniye, Osmaniye Soğutma Sistemleri",
+    "Osmaniye Havalandırma, Osmaniye İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Osmaniye Havalandırma Sistemleri",
 };
 
 function OsmaniyeIklimlendirme() {

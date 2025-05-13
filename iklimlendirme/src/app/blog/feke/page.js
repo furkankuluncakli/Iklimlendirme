@@ -5,11 +5,11 @@ import Image from "next/image";
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title:
-    "Feke İklimlendirme Hizmetleri | Klima Montaj, Bakım, Endüstriyel Soğutma",
+    "Feke Havalandırma ve İklimlendirme | Profesyonel Havalandırma Sistemleri",
   description:
-    "Feke'de klima montajı, bakımı ve endüstriyel soğutma sistemleri hizmeti. 20 yıllık tecrübe, ücretsiz keşif imkanı ve uygun fiyatlarla profesyonel çözümler.",
+    "Feke'de profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Feke İklimlendirme, Feke Klima, Klima Montajı, Klima Bakımı, Endüstriyel Soğutma, Soğutma Sistemleri, Feke Havalandırma, VRF Sistemleri",
+    "Feke Havalandırma, Feke İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function FekeIklimlendirme() {

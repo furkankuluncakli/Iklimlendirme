@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Seyhan İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title:
+    "Seyhan Havalandırma ve İklimlendirme | Profesyonel Havalandırma Çözümleri",
   description:
-    "Seyhan'da klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Seyhan'da profesyonel havalandırma ve iklimlendirme sistemleri. İç hava kalitesi, enerji verimliliği ve endüstriyel havalandırma çözümleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Seyhan İklimlendirme, Adana Klima, Seyhan Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Seyhan, Adana Soğutma Sistemleri",
+    "Seyhan Havalandırma, Seyhan İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function SeyhanIklimlendirme() {

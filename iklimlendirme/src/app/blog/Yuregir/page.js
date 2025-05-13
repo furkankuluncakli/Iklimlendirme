@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Yüreğir İklimlendirme | Klima Montaj & Bakım | Adana Klima",
+  title:
+    "Yüreğir Havalandırma ve İklimlendirme | Modern Havalandırma Sistemleri",
   description:
-    "Yüreğir'de klima montajı, bakım ve endüstriyel soğutma çözümleri. ✓ 20 Yıllık Tecrübe ✓ Ücretsiz Keşif ✓ Güvenilir Hizmet ✓ Profesyonel Ekip!",
+    "Yüreğir'de profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Yüreğir İklimlendirme, Adana Klima, Yüreğir Klima Montajı, Klima Bakımı, Endüstriyel Soğutma Yüreğir, Adana Soğutma Sistemleri",
+    "Yüreğir Havalandırma, Yüreğir İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
 };
 
 function YuregirIklimlendirme() {

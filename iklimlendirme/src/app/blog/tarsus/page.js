@@ -4,11 +4,12 @@ import Image from "next/image";
 
 export const metadata = {
   metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "Tarsus İklimlendirme | Klima Montaj & Bakım | Mersin Klima",
+  title:
+    "Tarsus Havalandırma ve İklimlendirme | Modern Havalandırma Sistemleri",
   description:
-    "Tarsus'ta profesyonel klima montajı, bakım ve soğutma hizmetleri. ✓ Tecrübeli Kadro ✓ Ücretsiz Keşif ✓ Ekonomik Fiyatlar ✓ Hızlı Servis!",
+    "Tarsus'ta profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
-    "Tarsus İklimlendirme, Mersin Klima, Tarsus Klima Montajı, Klima Bakımı Tarsus, Endüstriyel Soğutma Mersin, Soğutma Sistemleri Tarsus",
+    "Tarsus Havalandırma, Tarsus İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Mersin Havalandırma Sistemleri",
 };
 
 function TarsusIklimlendirme() {
