@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://www.bnrhavalandirma.com"),
   title: "BNR Havalandırma | İklimlendirme Sistemleri",
   description:
     "Adana'nın lider iklimlendirme ve havalandırma firması. Hastane, AVM, otel, konut ve işyerleri için profesyonel çözümler. Klima, havalandırma, ısıtma-soğutma sistemleri kurulum ve bakım hizmetleri.",
