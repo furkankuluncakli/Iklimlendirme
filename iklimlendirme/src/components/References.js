@@ -13,7 +13,7 @@ export default function App() {
     { img: "/img/boyner.png", alt: "Boyner" },
     { img: "/img/ipekyol.png", alt: "Ipekyol" },
     { img: "/img/monoLife.png", alt: "Mono Life" },
-    { img: "/img/popeyes.png", alt: "Popeyes" },
+    { img: "/img/popeyes.webp", alt: "Popeyes" },
     { img: "/img/ozsut.png", alt: "Ozsut" },
   ];
 

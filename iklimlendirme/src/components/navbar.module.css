@@ -34,7 +34,8 @@
   width: 60px;
   height: 60px;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: transparent;
 }
 
 .logoText {
@@ -51,7 +52,7 @@
 
 .logoText span:last-child {
   font-size: 1rem;
-  color: #666;
+  color: #333;
 }
 
 .navMenu {
@@ -194,6 +195,7 @@
 
   .logoText span:last-child {
     font-size: 0.8rem;
+    color: #333;
   }
 
   .hamburger {

@@ -20,11 +20,12 @@ const Navbar = () => {
         <nav className={styles.navbar}>
           <Link href="/" className={styles.logo}>
             <Image
-              src="/img/logo.jpg"
+              src="/img/logo.webp"
               alt="BNR Havalandırma Logo"
               width={60}
               height={60}
               className={styles.logoImage}
+              quality={95}
               priority
             />
             <div className={styles.logoText}>

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./footer.module.css";
 import Link from "next/link";
+import Image from "next/image";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
@@ -10,7 +11,15 @@ const Footer = () => {
         <div className={`${styles.sectionContainer} ${styles.footerWrapper}`}>
           <div className={styles.aboutUs}>
             <div className={styles.aboutUsImg}>
-              <img src="/img/logo.jpg" alt="BNR Havalandırma Logo" />
+              <Image
+                src="/img/logo.webp"
+                alt="BNR Havalandırma Logo"
+                width={120}
+                height={120}
+                className={styles.footerLogo}
+                quality={95}
+                priority
+              />
             </div>
           </div>
           <div className={styles.aboutUsText}>
@@ -46,6 +55,7 @@ const Footer = () => {
         <div className={styles.footerBottomContainer}>
           <div className={styles.icons}>
             <Link
+              aria-label="Instagram sayfamız"
               href="https://www.instagram.com/bnrhavalandirma"
               target="_blank"
               rel="noopener noreferrer"
@@ -54,6 +64,7 @@ const Footer = () => {
               <BsInstagram style={{ color: "#fff" }} />
             </Link>
             <Link
+              aria-label="WhatsApp Hattımız"
               href="https://wa.me/905446653943"
               className={styles.socialIcon}
             >

@@ -25,7 +25,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -35,6 +34,12 @@
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.footerLogo {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: contain !important;
 }
 
 .logo {
@@ -177,6 +182,14 @@
     height: 120px !important;
   }
 
+  .footerLogo {
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: contain !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+  }
+
   .logo {
     width: 120px;
     height: 120px;
@@ -187,6 +200,14 @@
   .aboutUsImg img {
     width: 100px !important;
     height: 100px !important;
+  }
+
+  .footerLogo {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: contain !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
   }
 
   .footerMenu ul li a {

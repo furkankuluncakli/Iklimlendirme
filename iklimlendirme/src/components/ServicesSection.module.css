@@ -1,0 +1,145 @@
+.sectionSecond {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f3f4f6;
+}
+
+.sectionSecond h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.sectionContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionStructure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  min-height: 200px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 50px;
+  color: var(--darker-gold);
+}
+
+.cardBody {
+  margin-top: 1rem;
+}
+
+.cardBodyTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.cardBodyDescription {
+  text-align: center;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .sectionSecond {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .sectionSecond h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .card {
+    min-height: 180px;
+    padding: 12px;
+  }
+
+  .icon {
+    font-size: 40px;
+  }
+
+  .cardBodyTitle {
+    font-size: 1.3rem;
+  }
+
+  .cardBodyDescription {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sectionSecond {
+    padding: 20px 10px;
+  }
+
+  .sectionSecond h2 {
+    font-size: 1.8rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    min-height: 160px;
+    padding: 10px;
+  }
+
+  .icon {
+    font-size: 35px;
+  }
+
+  .cardBodyTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardBodyDescription {
+    font-size: 0.85rem;
+  }
+}
