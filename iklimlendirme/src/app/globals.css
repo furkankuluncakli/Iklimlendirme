@@ -14,8 +14,9 @@ body {
   --light-blue: #4ca7e8;
   --light-gray: #f4f4f4;
   --soft-white: #fffdf9;
-  --primary-gold: #b8751f;
-  --darker-gold: #8b5a16;
+  --primary-gold: #d49115;
+  --darker-gold: #b8751f;
+  
 }
 
 @media screen and (max-width: 768px) {
