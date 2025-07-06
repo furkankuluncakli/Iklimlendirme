@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "BNR Havalandırma",
     images: [
       {
-        url: "/img/logo.jpg",
+        url: "/img/logo.webp",
         width: 800,
         height: 600,
         alt: "BNR Havalandırma Logo",
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr">
       <head>
-        <link rel="icon" href="/img/logo.jpg" />
+        <link rel="icon" href="/img/logo.webp" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable}`}>
         <Navbar />

@@ -33,7 +33,7 @@
 .mission,
 .vision,
 .principles {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-montserrat), sans-serif;
   line-height: 1.6;
   margin-bottom: 30px;
 }

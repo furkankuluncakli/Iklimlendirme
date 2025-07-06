@@ -52,7 +52,7 @@
 
 .logoText span:last-child {
   font-size: 1rem;
-  color: #333;
+  color: #1a1a1a;
 }
 
 .navMenu {
@@ -70,7 +70,7 @@
 
 .navMenu a {
   text-decoration: none;
-  color: #333;
+  color: #1a1a1a;
   font-size: 16px;
   padding: 10px 15px;
   transition: 0.3s;
@@ -92,7 +92,7 @@
   display: none;
   cursor: pointer;
   font-size: 32px;
-  color: #333;
+  color: #1a1a1a;
 }
 
 @media screen and (max-width: 768px) {
@@ -195,7 +195,7 @@
 
   .logoText span:last-child {
     font-size: 0.8rem;
-    color: #333;
+    color: #1a1a1a;
   }
 
   .hamburger {
