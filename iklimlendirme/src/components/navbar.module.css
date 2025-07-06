@@ -78,13 +78,13 @@
 }
 
 .navMenu .active {
-  background-color: var(--primary-gold);
+  background-color: var(--darker-gold);
   color: #fff;
   border-radius: 6px;
 }
 
 .navMenu a:hover {
-  background-color: var(--primary-gold);
+  background-color: var(--darker-gold);
   color: #fff;
 }
 
