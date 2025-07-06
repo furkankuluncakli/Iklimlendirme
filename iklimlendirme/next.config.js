@@ -1,10 +1,6 @@
 module.exports = {
   reactStrictMode: true,
  
-  experimental: {
-    optimizeCss: true,
-  },
-
   // Image optimization ayarları
   images: {
     formats: ['image/webp', 'image/avif'],
