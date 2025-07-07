@@ -17,10 +17,10 @@ function CeyhanIklimlendirme() {
     <div className={styles.container}>
       <div className={styles.header}>
         <Image
-          src={"/img/logo.jpg"}
+          src={"/img/blogLogo.jpg"}
           alt={"Ceyhan İklimlendirme Logo"}
-          width={150}
-          height={100}
+          width={500}
+          height={200}
           className={styles.image}
         />
       </div>

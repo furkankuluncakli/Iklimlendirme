@@ -17,9 +17,9 @@ function SeyhanIklimlendirme() {
     <div className={styles.container}>
       <div className={styles.header}>
         <Image
-          src={"/img/logo.jpg"}
+          src={"/img/blogLogo.jpg"}
           alt={"Seyhan İklimlendirme Logo"}
-          width={300}
+          width={500}
           height={200}
           layout="fixed"
           className={styles.image}

@@ -17,9 +17,9 @@ function SaricamIklimlendirme() {
     <div className={styles.container}>
       <div className={styles.header}>
         <Image
-          src={"/img/logo.jpg"}
+          src={"/img/blogLogo.jpg"}
           alt={"Sarıçam İklimlendirme Logo"}
-          width={300}
+          width={500}
           height={200}
           className={styles.image}
         />

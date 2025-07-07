@@ -17,9 +17,9 @@ function FekeIklimlendirme() {
     <div className={styles.container}>
       <header className={styles.header}>
         <Image
-          src="/img/logo.jpg"
+          src="/img/blogLogo.jpg"
           alt="BNR Havalandırma Logo"
-          width={300}
+          width={500}
           height={200}
           className={styles.image}
         />

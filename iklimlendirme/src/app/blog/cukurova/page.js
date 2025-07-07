@@ -17,9 +17,9 @@ function CukurovaIklimlendirme() {
     <div className={styles.container}>
       <div className={styles.header}>
         <Image
-          src={"/img/logo.jpg"}
+          src={"/img/blogLogo.jpg"}
           alt={"Çukurova İklimlendirme Logo"}
-          width={300}
+          width={500}
           height={200}
           className={styles.image}
         />
