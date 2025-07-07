@@ -104,14 +104,6 @@ const Blog = () => {
         "Mersin bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
     },
     {
-      title: "Adıyaman İklimlendirme",
-      link: "/blog/adiyaman",
-      img: "/img/kanal9.jpg",
-      alt: "Adıyaman İklimlendirme",
-      description:
-        "Adıyaman bölgesinde iklimlendirme çözümleri hakkında bilgi alın.",
-    },
-    {
       title: "Osmaniye İklimlendirme",
       link: "/blog/osmaniye",
       img: "/img/kanal10.jpg",
