@@ -10,6 +10,7 @@ export const metadata = {
     "Karaisalı'da profesyonel havalandırma ve iklimlendirme sistemleri. İç hava kalitesi, enerji verimliliği ve endüstriyel havalandırma çözümleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Karaisalı Havalandırma, Karaisalı İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/karaisali" },
 };
 
 function KaraisaliIklimlendirme() {

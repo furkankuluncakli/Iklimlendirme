@@ -10,6 +10,7 @@ export const metadata = {
     "Pozantı'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Pozantı Havalandırma, Pozantı İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Pozantı Soğutma Sistemleri, VRF Sistemleri",
+  alternates: { canonical: "/blog/pozanti" },
 };
 
 function PozantiIklimlendirme() {

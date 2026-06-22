@@ -10,6 +10,7 @@ export const metadata = {
     "Osmaniye'de profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Osmaniye Havalandırma, Osmaniye İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Osmaniye Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/osmaniye" },
 };
 
 function OsmaniyeIklimlendirme() {

@@ -10,6 +10,7 @@ export const metadata = {
     "Hatay'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Hatay Havalandırma, Hatay İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Hatay Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/hatay" },
 };
 
 function HatayIklimlendirme() {

@@ -10,6 +10,7 @@ export const metadata = {
     "Aladağ'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Aladağ Havalandırma, Aladağ İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/aladag" },
 };
 
 function AladagIklimlendirme() {

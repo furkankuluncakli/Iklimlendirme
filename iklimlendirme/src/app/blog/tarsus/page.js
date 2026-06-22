@@ -10,6 +10,7 @@ export const metadata = {
     "Tarsus'ta profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Tarsus Havalandırma, Tarsus İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Mersin Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/tarsus" },
 };
 
 function TarsusIklimlendirme() {

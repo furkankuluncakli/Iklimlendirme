@@ -10,6 +10,7 @@ export const metadata = {
     "Mersin'de profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Mersin Havalandırma, Mersin İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Mersin Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/mersin" },
 };
 
 function MersinIklimlendirme() {

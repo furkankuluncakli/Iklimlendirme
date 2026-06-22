@@ -1,6 +1,15 @@
 import React from "react";
 import styles from "./page.module.css";
+import Image from "next/image";
+import { createMetadata } from "../seo";
 
+export const metadata = createMetadata({
+  title: "Hizmetlerimiz",
+  description:
+    "Havalandırma sistemleri, ısıtma-soğutma, yangın tesisatı, sıhhi tesisat ve mekanik tesisat projeleri için keşif, projelendirme, montaj ve bakım hizmetleri.",
+  path: "/services",
+  keywords: ["havalandırma hizmetleri", "mekanik tesisat", "ısıtma soğutma", "yangın tesisatı"],
+});
 
 const Service = () => {
   return (
@@ -9,13 +18,18 @@ const Service = () => {
         <div className={styles.container}>
           <div className={styles.contentWrapper}>
             <div className={styles.image}>
-              <img src="img/havalandirma.jpg" alt="" />
+              <Image
+                src="/img/havalandirma.jpg"
+                alt="BNR Havalandırma mekanik tesisat ve havalandırma hizmetleri"
+                width={900}
+                height={600}
+              />
             </div>
             <div className={styles.text}>
               <article>
-                <h2 className={styles.bodyTitle}>
+                <h1 className={styles.bodyTitle}>
                   BNR Havalandırma Proje Yönetimi
-                </h2>
+                </h1>
                 <p className={styles.description}>
                   <strong>
                     Anahtar teslim havalandırma ve mekanik tesisat

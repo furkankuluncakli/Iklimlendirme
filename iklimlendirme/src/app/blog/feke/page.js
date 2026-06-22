@@ -10,6 +10,7 @@ export const metadata = {
     "Feke'de profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Feke Havalandırma, Feke İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/feke" },
 };
 
 function FekeIklimlendirme() {

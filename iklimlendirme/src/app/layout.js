@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { createMetadata, siteUrl } from "./seo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,39 +25,51 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.bnrhavalandirma.com"),
-  title: "BNR Havalandırma | İklimlendirme Sistemleri",
-  description:
-    "Adana'nın lider iklimlendirme ve havalandırma firması. Hastane, AVM, otel, konut ve işyerleri için profesyonel çözümler. Klima, havalandırma, ısıtma-soğutma sistemleri kurulum ve bakım hizmetleri.",
-  keywords:
-    "havalandırma, iklimlendirme, klima, ısıtma, soğutma, Adana, mekanik tesisat, hastane havalandırma, endüstriyel havalandırma",
+  ...createMetadata({
+    description:
+      "Adana'da havalandırma, iklimlendirme, ısıtma, soğutma ve mekanik tesisat projeleri için profesyonel keşif, projelendirme, montaj ve bakım hizmetleri.",
+  }),
   authors: [{ name: "BNR Havalandırma" }],
   creator: "BNR Havalandırma",
   publisher: "BNR Havalandırma",
-  openGraph: {
-    title: "BNR Havalandırma | İklimlendirme ve Havalandırma Sistemleri",
-    description:
-      "Adana'nın lider iklimlendirme ve havalandırma firması. Profesyonel çözümler ve uzman ekip.",
-    url: "https://bnrhavalandirma.com",
-    siteName: "BNR Havalandırma",
-    images: [
-      {
-        url: "/img/logo.webp",
-        width: 800,
-        height: 600,
-        alt: "BNR Havalandırma Logo",
-      },
-    ],
-    locale: "tr_TR",
-    type: "website",
+  verification: {
+    google: "DGgefgEMv1u6ue-mlTT8669erZ6CMC9kK00bHkqI60o",
   },
 };
 
 export default function RootLayout({ children }) {
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": `${siteUrl}/#localbusiness`,
+    name: "BNR Havalandırma",
+    url: siteUrl,
+    logo: `${siteUrl}/img/logo.webp`,
+    image: `${siteUrl}/img/mainPage1.webp`,
+    telephone: "+905446653943",
+    email: "bnrhavalandirma@gmail.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Levent Mahallesi 1830 Sokak No:47",
+      addressLocality: "Yüreğir",
+      addressRegion: "Adana",
+      addressCountry: "TR",
+    },
+    areaServed: ["Adana", "Mersin", "Osmaniye", "Hatay"],
+    priceRange: "$$",
+    sameAs: ["https://www.instagram.com/bnrhavalandirma"],
+  };
+
   return (
     <html lang="tr">
       <head>
         <link rel="icon" href="/img/logo.webp" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessSchema),
+          }}
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable}`}>
         <Navbar />

@@ -7,7 +7,7 @@
   },
   {
     "id": 2,
-    "img": "img/logo.jpg",
+    "img": "img/logo.webp",
     "title": "Hizmet 2",
     "description": "Açıklama 2"
   },
@@ -19,13 +19,13 @@
   },
   {
     "id": 4,
-    "img": "img/logo.jpg",
+    "img": "img/logo.webp",
     "title": "Hizmet 4",
     "description": "Açıklama 4"
   },
   {
     "id": 5,
-    "img": "img/logo.jpg",
+    "img": "img/logo.webp",
     "title": "Hizmet 5",
     "description": "Açıklama 5"
   }

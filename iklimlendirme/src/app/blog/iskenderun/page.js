@@ -10,6 +10,7 @@ export const metadata = {
     "İskenderun'da profesyonel havalandırma ve iklimlendirme çözümleri. İç mekan hava kalitesi, enerji tasarruflu sistemler ve endüstriyel havalandırma hizmetleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "İskenderun Havalandırma, İskenderun İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Hatay Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/iskenderun" },
 };
 
 function IskenderunIklimlendirme() {

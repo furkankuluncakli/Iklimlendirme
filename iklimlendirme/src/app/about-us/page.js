@@ -1,5 +1,15 @@
 import React from "react";
 import styles from "./page.module.css";
+import Image from "next/image";
+import { createMetadata } from "../seo";
+
+export const metadata = createMetadata({
+  title: "Hakkımızda",
+  description:
+    "BNR Havalandırma'nın mekanik tesisat, havalandırma, iklimlendirme, ısıtma-soğutma ve proje yönetimi alanındaki kurumsal yaklaşımını tanıyın.",
+  path: "/about-us",
+  keywords: ["BNR Havalandırma hakkında", "mekanik tesisat firması", "Adana havalandırma firması"],
+});
 
 const page = () => {
   return (
@@ -8,9 +18,9 @@ const page = () => {
         <div className={styles.container}>
           <div className={styles.left}>
             <article>
-              <h2 className={styles.bodyTitle}>
+              <h1 className={styles.bodyTitle}>
                 BNR Havalandırma Proje Yönetimi
-              </h2>
+              </h1>
               <p className={styles.description}>
                 BNR Havalandırma, 2025 yılında kurulmuş olup; hastane, alışveriş
                 merkezi, otel, konut, ofis ve restoran gibi yapılarda ısıtma,
@@ -49,7 +59,12 @@ const page = () => {
             </article>
           </div>
           <div className={styles.right}>
-            <img src="img/logo.jpg" alt="" />
+            <Image
+              src="/img/logo.webp"
+              alt="BNR Havalandırma kurumsal logo"
+              width={500}
+              height={500}
+            />
           </div>
         </div>
         <div>
@@ -75,7 +90,7 @@ const page = () => {
           </section>
 
           <section className={styles.principles}>
-            <h1>İLKELERİMİZ</h1>
+            <h2>İLKELERİMİZ</h2>
             <h2>Dürüstlük • Güvenilirlik • Sorumluluk</h2>
             <p>
               Tüm faaliyet alanlarımızda ve iş ilişkilerimizde etik ilkelere

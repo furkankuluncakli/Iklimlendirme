@@ -9,6 +9,7 @@ export const metadata = {
     "Kozan'da profesyonel havalandırma ve iklimlendirme sistemleri. İç hava kalitesi, enerji verimliliği ve endüstriyel havalandırma çözümleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Kozan Havalandırma, Kozan İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/kozan" },
 };
 
 function KozanIklimlendirme() {

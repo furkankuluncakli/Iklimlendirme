@@ -10,6 +10,7 @@ export const metadata = {
     "Seyhan'da profesyonel havalandırma ve iklimlendirme sistemleri. İç hava kalitesi, enerji verimliliği ve endüstriyel havalandırma çözümleri. ✓ 20 Yıllık Tecrübe",
   keywords:
     "Seyhan Havalandırma, Seyhan İklimlendirme, Havalandırma Sistemleri, İç Mekan Hava Kalitesi, Endüstriyel Havalandırma, Adana Havalandırma Sistemleri",
+  alternates: { canonical: "/blog/seyhan" },
 };
 
 function SeyhanIklimlendirme() {
